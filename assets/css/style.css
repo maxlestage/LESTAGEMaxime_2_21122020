@@ -21,28 +21,45 @@ body {
 }
 
 
-section #title-top
+#top-search
 {
     padding-left: 5%;
 }
 
-section #title-top h1 
+#top-search h1 
 {
     font-size: 1em;
 }
 
-section #title-top h2
+#top-search h2
 {
     font-size: 0.7em;
 }
 
+#top-filter
+{
+    display: flex;
+    align-items: flex-start;
+}
+
+#top-filter h1
+{
+    font-size: 0.9em;
+}
+
+
 
 footer
 {
+    margin: auto;
     background:#ccc;
     position:absolute;
     bottom:0;
     width:100%;
     padding-top:50px;
     height:50px;
+}
+
+li.title-footer {
+    list-style: none;
 }
