@@ -54,14 +54,14 @@ body {
     font-size: 0.9em;
 }
 
-.container-right{
+.container-right {
     width: 30%;
     float: right;
     border: 1px solid blue;
 
 }
 
-.container-right #rightside img{
+.container-right #rightside img {
     margin-left: auto;
     padding-top: 7%;
     width: 25%;
@@ -69,9 +69,12 @@ body {
 
 
 footer {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: flex-start;
     border: 1px solid blueviolet;
-
 }
+
 
 li.title-footer {
     list-style: none;
