@@ -12,26 +12,28 @@
 <header>
     <!-- Top Nav bar -->
     <nav class="top-nav">
-        <a class="navbar-brand" href="#">
-            <img alt="Logo de l'entreprise Reservia" class="brand-logo" src="assets/images/logo/Reservia.svg">
-        </a>
+        <div class="navbar">
+            <a href="#">
+                <img alt="Logo de l'entreprise Reservia" class="brand-logo" src="assets/images/logo/Reservia.svg">
+            </a>
+        </div>
         <div class="nav-items">
-            <ul class="items">
-                <li class="nav-item">
+            <ul>
+                <li>
                     <a href="#">Hébergements</a>
                 </li>
-                <li class="nav-item">
+            </ul>
+            <ul>
+                <li>
                     <a href="#">Activités</a>
                 </li>
             </ul>
-        </div>
-        <div class="nav-elements">
-            <ul>
-                <li class="nav-inscription">
-                    <a href="#">S'inscrire</a>
-                </li>
-            </ul>
-        </div>
+                <ul>
+                    <li>
+                        <a href="#">S'inscrire</a>
+                    </li>
+                </ul>
+            </div>
     </nav>
 </header>
 <!-- Top avec Recherche -->
@@ -39,11 +41,11 @@
     <section>
         <div id="top-search">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <h2>En plein centre ville ou en pleine nature</h2>
+            <h2 class="line-height">En plein centre ville ou en pleine nature</h2>
             <div id="search-bar">
                 <i aria-hidden="true" class="fa fa-map-marker"></i>
                 <input aria-label="Search through site content" id="site-search" name="q" type="search">
-                <button class="btn">Search</button>
+                <button class="btn">Rechercher</button>
             </div>
         </div>
     </section>
