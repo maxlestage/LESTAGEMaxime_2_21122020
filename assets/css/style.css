@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
+
 body {
-    background-color: white !important;
+    font-family: 'Raleway', sans-serif;
 }
 
-.navbar {
-    justify-content: space-around;
+.top-navbar {
+    display: flex;
     border: 1px solid black;
 }
-
-#navbarSupportedContent {
+.top-choices {
     display: flex;
-    justify-content: end;
+    flex-direction: row;
+
 }
 
 .navbar-light .navbar-nav .nav-link {
