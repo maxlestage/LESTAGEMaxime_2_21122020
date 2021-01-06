@@ -27,8 +27,26 @@ nav {
     padding-right: 5%;
 }
 
+#top-filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+#top-filters > li {
+    padding: 5px 10px 5px 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#top-filters > li:hover{
+    color: #00b3ff;
+}
+
 
 li {
+
     list-style: none;
 }
 
@@ -56,6 +74,7 @@ li {
     border: 1px solid black;
     background-color: #F2F2F2;
 }
+
 .heb-marseille img {
     width: 10%;
 }
@@ -67,6 +86,7 @@ li {
     flex-wrap: wrap;
 
 }
+
 #populaire-side img {
     width: 30%;
 }
@@ -81,8 +101,49 @@ li {
 #activity-marseille {
     border: 1px solid black;
 }
+
 #activity-marseille img {
     display: flex;
-
     width: 10%;
+}
+
+footer > div {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    background-color: #666666;
+}
+
+
+/* ADDING MEDIA QUERY */
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px)
+{
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px)
+{
+
+}
+
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px)
+{
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px)
+{
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px)
+{
+
 }
