@@ -104,6 +104,14 @@ li {
     margin-left: 1em;
 }
 
+#info .i-info  {
+   border-radius: 25% 25%;
+    color: blue;
+    border: 1px solid #F2F2F2;
+}
+
+
+
 footer > div {
     border: 1px solid black;
     display: flex;
