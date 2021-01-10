@@ -12,109 +12,96 @@ nav {
     flex-direction: row;
 }
 
-.navbar {
+.logo-brand {
     border: 1px solid black;
     display: flex;
     width: 10%;
 }
 
 .nav-items {
-    border: 1px solid black;
+    border: 1px solid purple;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     width: 90%;
     padding-right: 5%;
+
 }
 
-#top-filters {
+h2.line-height{
+    border: 1px solid greenyellow;
+    font-weight: lighter;
+    font-size: 1.1em;
+    height: auto;
+
+}
+
+#search-bar {
+    border: 1px solid blue;
+
+
+}
+#search-bar ul {
+    width: auto;
+    height: 30px;
+    border: 1px solid brown;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
+    padding-inline-start: 10px;
+}
+
+#search-bar li {
+    border: 2px solid blueviolet;
+}
+
+.gps-loc {
 
 }
 
-#top-filters > li {
-    height: 5%;
-    padding: 5px 10px 5px 20px;
-    border: 1px solid black;
-    border-radius: 20px;
+.input-search {
+
 }
 
-#top-filters > li:hover {
-    color: #00b3ff;
+.btn-search {
+
 }
 
 
 li {
-
     list-style: none;
 }
 
-.line-height {
-    font-weight: normal;
-    font-size: 1.1em;
-    line-height: 3%;
-}
-
-#top-search {
+#filters > ul {
     border: 1px solid black;
-    padding-top: 2%;
-}
-
-#search-bar {
-    border: 1px solid black;
-    width: 20%;
-
-}
-
-.heb-marseille {
     display: flex;
-    align-content: space-around;
-    /* flex-direction: row;*/
-    border: 1px solid black;
-    background-color: #F2F2F2;
+    flex-direction: row;
+    justify-content:  flex-start;
+    height: auto;
 }
 
-#heb-row {
+#filters li {
+    height: auto;
     border: 1px solid red;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 30px;
+    border-radius: 35px 35px;
+    margin-left: 5%;
+}
+
+.filter  p {
 
 }
 
-.heb-marseille img {
-    width: 10%;
+.list-filters {
+    border: 1px solid green;
+    margin-left: 1em;
+    margin-right: 1.5em;
 }
 
-#populaire-side {
-    border: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-
-}
-
-#populaire-side img {
-    width: 30%;
-}
-
-.container-right {
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-}
-
-
-#activity-marseille {
-    border: 1px solid black;
-}
-
-#activity-marseille img {
-    display: flex;
-    width: 10%;
+.filter-logo {
+    border: 1px solid yellow;
+    border-radius: 35px 35px;
+    text-decoration-line: none;
+    margin-left: 1em;
 }
 
 footer > div {
