@@ -144,8 +144,10 @@ figure img {
 
 
 .heb-select  {
-    border: 1px solid yellow;
-    width:  30%;
+    border: 1px solid cornflowerblue;
+    background-color: white;
+    box-shadow: 1px 3px 5px grey;
+    width:  250px;
     margin: auto;
     border-radius: 20px;
 }
@@ -153,12 +155,18 @@ figure img {
 .heb-row  {
     border: 1px solid purple;
     background-color: #F2F2F2;
+    padding-bottom: 10%;
+    margin-right: 15%;
     border-radius: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
+.display-more {
+    display: table;
+    width: 100%;
+}
 
 aside#populaire-side {
 
