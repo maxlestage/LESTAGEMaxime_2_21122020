@@ -17,6 +17,9 @@ nav {
     display: flex;
     width: 10%;
 }
+.brand-logo img{
+    width: 10%;
+}
 
 .nav-items {
     border: 1px solid purple;
@@ -108,7 +111,55 @@ li {
    border-radius: 25% 25%;
     color: blue;
     border: 1px solid #F2F2F2;
+
 }
+
+
+
+.heb-marseille {
+    border: 1px solid gray;
+    display:flex;
+    justify-content:space-between;
+
+}
+
+#heb-row figure, img {
+    width: 40%;
+}
+
+#heb-row {
+    border: 1px solid yellow;
+    display: flex;
+    flex-direction: row;
+
+
+
+}
+
+aside#populaire-side {
+
+    width: 30%;
+    border: 1px solid palegreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
