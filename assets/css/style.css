@@ -107,11 +107,15 @@ li {
     margin-left: 1em;
 }
 
-#info .i-info  {
-   border-radius: 25% 25%;
-    color: blue;
+.i-info span {
+    font-family: serif; /* Pour la famille de lettre utilisé pour le i*/
+    font-weight: bold;
+    font-style: normal; /* Pour l'aspect du i*/
+    font-size: smaller; /* Pour la taille du i*/
+    padding: 1px 7px; /* Pour la taille du cercle qui entoure le i*/
+    border-radius: 50%;
+    color: #0065fc;
     border: 1px solid #F2F2F2;
-
 }
 
 
