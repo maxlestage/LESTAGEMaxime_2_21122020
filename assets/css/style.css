@@ -139,7 +139,9 @@ figure img {
     display: flex;
     justify-content: center;
     align-content: center;
+    margin: auto;
 }
+
 
 .heb-select  {
     border: 1px solid yellow;
@@ -150,6 +152,8 @@ figure img {
 
 .heb-row  {
     border: 1px solid purple;
+    background-color: #F2F2F2;
+    border-radius: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
