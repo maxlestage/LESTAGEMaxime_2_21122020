@@ -106,6 +106,9 @@ li {
     text-decoration-line: none;
     margin-left: 1em;
 }
+.i-info a {
+    text-decoration: none;
+}
 
 .i-info span {
     font-family: serif; /* Pour la famille de lettre utilisé pour le i*/
