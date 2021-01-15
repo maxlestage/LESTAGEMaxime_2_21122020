@@ -2,8 +2,8 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    padding-top: 3%;
     width: 95%;
+    padding-top: 3%;
     margin: auto;
 }
 
@@ -13,7 +13,7 @@ nav {
 }
 
 .logo-brand {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     display: flex;
     width: 10%;
 }
@@ -23,7 +23,7 @@ nav {
 }
 
 .nav-items {
-    border: 1px solid purple;
+    /*border: 1px solid purple;*/
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -32,7 +32,7 @@ nav {
 }
 
 h2.line-height {
-    border: 1px solid greenyellow;
+    /*border: 1px solid greenyellow;*/
     font-weight: lighter;
     font-size: 1.1em;
     height: auto;
@@ -63,32 +63,58 @@ li {
 }
 
 #filters > ul {
-    border: 1px solid black;
+   /* border: 1px solid black;*/
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     height: auto;
+    margin-left: -35px;
 }
 
 #filters li:not(.title-filters) {
-    height: auto;
-    border: 1px solid red;
+    /*border: 1px solid #f2f2f2;*/
     border-radius: 35px 35px;
     margin-left: 5%;
 }
 
+#filters p {
+    border: 3px solid #F2F2F2;
+   /* border: 3px solid #f2f2f2;*/
+    border-radius: 30px;
+    margin-top: 1.5vh;
+    justify-content: center;
+}
+
+#filters a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
 
 .list-filters {
-    border: 1px solid green;
-    margin-left: 1em;
+    /*border: 1px solid green;*/
+    margin-left: 10px;
     margin-right: 1.5em;
 }
 
-.filter-logo {
-    border: 1px solid yellow;
-    border-radius: 35px 35px;
+.filter-logo{
+    text-align: center;
+    /*border: 1px solid blue;*/
+    border-radius: 100% ;
     text-decoration-line: none;
-    margin-left: 1em;
+    /*margin-left: 1em;*/
+    color: #0368fc;
+    background-color: #dfecff;
+    padding: 15px;
+    margin-left: -2%;
+    margin-top: -1.5%;
+    margin-bottom: -1%;
+    font-weight: bold;
+}
+
+.fa-child {
+    width: 12%;
+    margin-right: -2%;
 }
 
 .i-info a {
@@ -107,13 +133,14 @@ li {
 }
 
 #heb-marseille {
-    border: 1px solid gray;
+  /*  border: 1px solid gray;*/
     display: flex;
     justify-content: space-between;
 }
 
 section#heb-marseille h3 {
     text-align: justify;
+    padding-left: 11%;
 }
 
 .title-heb-marseille {
@@ -134,8 +161,11 @@ figure img {
 .heb-row {
     border: 1px solid purple;
     background-color: #F2F2F2;
-    padding-bottom: 2%;
+    /*padding-bottom: 2%;*/
     margin-right: 3%;
+    margin-top: 0%;
+    margin-bottom: 20%;
+    margin-left: auto;
     border-radius: 20px;
     display: flex;
     flex-direction: row;
@@ -147,7 +177,10 @@ figure img {
     background-color: white;
     box-shadow: 1px 3px 5px grey;
     width: 250px;
-    margin: auto;
+    margin-top: auto;
+    margin-right: 5%;
+    margin-bottom: auto;
+    margin-left: 5%;
     border-radius: 20px;
 }
 
@@ -155,6 +188,10 @@ figure img {
 .display-more {
     display: table;
     width: 100%;
+}
+
+i.fas.fa-chart-line {
+    padding-left: 25%;
 }
 
 aside#populaire-side {
@@ -169,7 +206,6 @@ aside#populaire-side {
     border: 1px solid cornflowerblue;
     background-color: white;
     box-shadow: 1px 3px 5px grey;
-
     border-radius: 20px;
 }
 
@@ -200,12 +236,21 @@ section#activity-marseille{
     text-align: justify;
 }
 
+section#heb-marseille h3:not(.pop-right) {
+    text-align: justify;
+    padding-left: 3%;
+}
+
+.container-right h3 {
+    text-align: justify;
+    padding-left: 12%;
+}
 
 footer > #footer-items {
-
     display: flex;
     justify-content: space-around;
     background-color: #F2F2F2;
+    width: 100%;
 }
 
 
