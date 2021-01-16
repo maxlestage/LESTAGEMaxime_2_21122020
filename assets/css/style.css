@@ -2,12 +2,18 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    width: 95%;
+    /*width: 95%;*/
     padding-top: 3%;
     margin: auto;
 }
 
+header {
+    width: 95%;
+    margin: auto;
+}
+
 nav {
+
     display: flex;
     flex-direction: row;
 }
@@ -34,18 +40,23 @@ nav {
 h2.line-height {
     /*border: 1px solid greenyellow;*/
     font-weight: lighter;
-    font-size: 1.1em;
+    font-size: 13px;
     height: auto;
 }
 
+.top-search {
+    width: 95%;
+    margin: auto;
+}
+
 #search-bar {
-    border: 1px solid blue;
+    /* border: 1px solid blue;*/
 }
 
 #search-bar ul {
     width: auto;
-    height: 30px;
-    border: 1px solid brown;
+    height: 2em;
+    /*border: 1px solid brown;*/
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -53,9 +64,57 @@ h2.line-height {
 }
 
 #search-bar li {
-    border: 2px solid blueviolet;
+
 }
 
+.gps-loc {
+    text-align: center;
+    /* border: 1px solid blue; */
+    border-radius: 12px 0% 0% 12px;
+    text-decoration-line: none;
+    /* margin-left: 1em; */
+    color: black;
+    background-color: #f2f2f2;
+    padding: 11.5px;
+    /* margin-left: -1%; */
+    /* margin-top: -1.5%; */
+    /* margin-bottom: -1%; */
+    font-weight: bold;
+}
+
+::-webkit-input-placeholder {
+    color: black;
+}
+
+input#site-search {
+    text-align: center;
+    border: 1px solid #f2f2f2;
+    /* border-radius: 20% 0% 0% 20%; */
+    text-decoration-line: none;
+    /* margin-left: 1em; */
+    /* color: #0368fc; */
+    /* background-color: #dfecff; */
+    padding: 11px;
+    /* margin-left: -1%; */
+    /* margin-top: -1.5%; */
+    /* margin-bottom: -1%; */
+    font-weight: bold;
+}
+
+button.btn-search {
+    /* text-align: center; */
+    border: 1px solid #0000ff00;
+    border-radius: 0px 12px 12px 0px;
+    text-decoration-line: none;
+    /* margin-left: 1em; */
+    color: white;
+    background-color: #0065fc;
+    padding: 11px;
+    /* margin-left: -1%; */
+    /* margin-top: -1.5%; */
+    /* margin-bottom: -1%; */
+    font-weight: bold;
+}
 
 
 li {
@@ -63,7 +122,7 @@ li {
 }
 
 #filters > ul {
-   /* border: 1px solid black;*/
+    /* border: 1px solid black;*/
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -79,9 +138,9 @@ li {
 
 #filters p {
     border: 3px solid #F2F2F2;
-   /* border: 3px solid #f2f2f2;*/
+    /* border: 3px solid #f2f2f2;*/
     border-radius: 30px;
-    margin-top: 1.5vh;
+    margin-top: 2vh;
     justify-content: center;
 }
 
@@ -97,10 +156,10 @@ li {
     margin-right: 1.5em;
 }
 
-.filter-logo{
+.filter-logo {
     text-align: center;
     /*border: 1px solid blue;*/
-    border-radius: 100% ;
+    border-radius: 100%;
     text-decoration-line: none;
     /*margin-left: 1em;*/
     color: #0368fc;
@@ -133,7 +192,7 @@ li {
 }
 
 #heb-marseille {
-  /*  border: 1px solid gray;*/
+    /*  border: 1px solid gray;*/
     display: flex;
     justify-content: space-between;
 }
@@ -141,6 +200,12 @@ li {
 section#heb-marseille h3 {
     text-align: justify;
     padding-left: 11%;
+}
+
+
+section#heb-marseille {
+    width: 95%;
+    margin: auto;
 }
 
 .title-heb-marseille {
@@ -176,7 +241,7 @@ figure img {
     border: 1px solid cornflowerblue;
     background-color: white;
     box-shadow: 1px 3px 5px grey;
-    width: 250px;
+    width: 215px;
     margin-top: auto;
     margin-right: 5%;
     margin-bottom: auto;
@@ -215,10 +280,12 @@ aside#populaire-side {
     align-content: center;
     margin: auto;
 }
+
 .title-activity-marseille h3 {
     width: 100%;
 }
-#activity-marseille{
+
+#activity-marseille {
     border: 1px solid fuchsia;
     margin-top: 3%;
     margin-bottom: 3%;
@@ -232,8 +299,12 @@ aside#populaire-side {
     align-content: center;
 
 }
-section#activity-marseille{
+
+section#activity-marseille {
+    width: 95%;
+    margin: auto;
     text-align: justify;
+
 }
 
 section#heb-marseille h3:not(.pop-right) {
@@ -253,11 +324,10 @@ footer > #footer-items {
 }
 
 
-
 footer {
     background-color: #F2F2F2;
-    margin-left: -3%;
-    margin-right: -3%;
+    margin: auto;
+    width: 100%;
 }
 
 
