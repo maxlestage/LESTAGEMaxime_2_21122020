@@ -69,16 +69,11 @@ h2.line-height {
 
 .gps-loc {
     text-align: center;
-    /* border: 1px solid blue; */
-    border-radius: 12px 0% 0% 12px;
+    border-radius: 12px 0px 0px 12px;
     text-decoration-line: none;
-    /* margin-left: 1em; */
     color: black;
     background-color: #f2f2f2;
     padding: 11.5px;
-    /* margin-left: -1%; */
-    /* margin-top: -1.5%; */
-    /* margin-bottom: -1%; */
     font-weight: bold;
 }
 
@@ -89,30 +84,18 @@ h2.line-height {
 input#site-search {
     text-align: center;
     border: 1px solid #f2f2f2;
-    /* border-radius: 20% 0% 0% 20%; */
     text-decoration-line: none;
-    /* margin-left: 1em; */
-    /* color: #0368fc; */
-    /* background-color: #dfecff; */
     padding: 11px;
-    /* margin-left: -1%; */
-    /* margin-top: -1.5%; */
-    /* margin-bottom: -1%; */
     font-weight: bold;
 }
 
 button.btn-search {
-    /* text-align: center; */
     border: 1px solid #0000ff00;
     border-radius: 0px 12px 12px 0px;
     text-decoration-line: none;
-    /* margin-left: 1em; */
     color: white;
     background-color: #0065fc;
     padding: 11px;
-    /* margin-left: -1%; */
-    /* margin-top: -1.5%; */
-    /* margin-bottom: -1%; */
     font-weight: bold;
 }
 
