@@ -249,11 +249,16 @@ section#heb-marseille h3:not(.pop-right) {
 footer > #footer-items {
     display: flex;
     justify-content: space-around;
-    background-color: #F2F2F2;
-    width: 100%;
+    align-content: flex-start;
 }
 
 
+
+footer {
+    background-color: #F2F2F2;
+    margin-left: -3%;
+    margin-right: -3%;
+}
 
 
 /* ADDING MEDIA QUERY */
