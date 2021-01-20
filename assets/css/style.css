@@ -6,7 +6,6 @@ body {
     margin: auto;
 }
 
-/*         */
 header {
     width: 95%;
     margin: auto;
@@ -18,7 +17,6 @@ nav {
 }
 
 .logo-brand {
-    /*border: 1px solid black;*/
     display: flex;
     width: 10%;
 }
@@ -28,16 +26,16 @@ nav {
 }
 
 .nav-items {
-    /*border: 1px solid purple;*/
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     width: 90%;
     padding-right: 5%;
 }
+/* Fin du style pour la Navbar du haut */
 
+/* Début du style pour les Filtres */
 h2.line-height {
-    /*border: 1px solid greenyellow;*/
     font-weight: lighter;
     font-size: 13px;
     height: auto;
@@ -48,14 +46,9 @@ h2.line-height {
     margin: auto;
 }
 
-#search-bar {
-    /* border: 1px solid blue;*/
-}
-
 #search-bar ul {
     width: auto;
     height: 2em;
-    /*border: 1px solid brown;*/
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -69,15 +62,19 @@ h2.line-height {
     padding: 11.5px;
 }
 
+/* Test Webkit pour la barre de recherche avec safari */
 ::-webkit-input-placeholder {
     color: black;
 }
 
+
+/* Barre de recherche */
 input#site-search {
     border: 1px solid #f2f2f2;
     text-decoration-line: none;
     padding: 11px;
     font-weight: bold;
+    outline-color: #f2f2f2;
 }
 
 button.btn-search {
@@ -95,7 +92,9 @@ li {
     list-style: none;
 }
 
-#filters > ul {
+/* Début des Filtres */
+
+#filters>ul {
     /* border: 1px solid black;*/
     display: flex;
     flex-direction: row;
@@ -149,24 +148,31 @@ li {
     width: 12%;
     margin-right: -2%;
 }
+/* Fin du style pour les Filtres */
 
+/* Style créer pour pour le petit i en dessous des filtres */
 .i-info a {
     text-decoration: none;
 }
 
 .i-info span {
-    font-family: serif; /* Pour la famille de lettre utilisé pour le i*/
+    font-family: serif;
+    /* Pour la famille de lettre utilisé pour le i*/
     font-weight: bold;
-    font-style: normal; /* Pour l'aspect du i*/
-    font-size: smaller; /* Pour la taille du i*/
-    padding: 1px 7px; /* Pour la taille du cercle qui entoure le i*/
+    font-style: normal;
+    /* Pour l'aspect du i*/
+    font-size: smaller;
+    /* Pour la taille du i*/
+    padding: 1px 7px;
+    /* Pour la taille du cercle qui entoure le i*/
     border-radius: 50%;
     color: #0065fc;
     border: 1px solid #F2F2F2;
 }
+/* Fin du style du petit i */
 
+/* Début du style pour L'Hébergement à Marseille */
 #heb-marseille {
-    /*  border: 1px solid gray;*/
     display: flex;
     justify-content: space-between;
 }
@@ -188,12 +194,6 @@ h3.title-heb {
     position: absolute;
 }
 
-/*.title-heb-marseille {
-    width: 100%;
-}*/
-
-
-
 figure.img-marseille {
     display: block;
     margin-block-start: 1.5%;
@@ -201,30 +201,9 @@ figure.img-marseille {
     margin-inline-end: 2%;
 }
 
-/*.fig-image {
-    !*display: flex;
-    justify-content: center;
-    align-content: center;
-    margin: auto;*!
-}*/
-
 .heb-row a {
     text-decoration: none;
 }
-
-/*.heb-row {
-    border: 1px solid purple;
-    background-color: #F2F2F2;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    !* padding-bottom: 2%; *!
-    margin-right: 3%;
-    margin-top: 0%;
-    !* margin-bottom: 20%; *!
-    margin-left: auto;
-    border-radius: 20px;
-}*/
 
 .heb-row {
     border-radius: 20px;
@@ -241,26 +220,38 @@ figure.img-marseille {
     padding-bottom: 5%;
 }
 
-
-.card-text i:not(.wide) {
-   color:#0065fc;
+.heb-row img {
+    padding-top: 1px;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    height: 7rem;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
 }
-.card-text .wide {
-    color:#d9d9d9;
 
+.heb-select {
+    /* border: 1px solid cornflowerblue; */
+    background-color: white;
+    box-shadow: 0px 2px 4px 0px #80808059;
+    /* width: 242px; */
+    /* margin-top: auto; */
+    /* margin-right: 4%; */
+    /* margin-bottom: auto; */
+    /* margin-left: 40px; */
+    border-radius: 18px 18px 18px 18px;
 }
 
 figcaption.card-text {
     margin-left: 10px;
 }
 
-i.fa.fa-star {
-    letter-spacing: -3px;
-    font-size: 11px;
+.card-text .wide {
+    color: #d9d9d9;
 }
-.card-text p {
-    margin: 0px;
-    line-height: 22px;
+
+.card-text i:not(.wide) {
+    color: #0065fc;
 }
 
 .card-title {
@@ -277,53 +268,44 @@ i.fa.fa-star {
     color: black;
 }
 
-.heb-row img {
-    width: 100%;
-    border-radius: 15px 15px 0 0;
-    height: 7rem;
-    object-fit: cover;
-    max-width: 100%;
-    max-height: 100%;
+i.fa.fa-star {
+    letter-spacing: -3px;
+    font-size: 11px;
 }
 
-
-.heb-select {
-    /* border: 1px solid cornflowerblue; */
-    background-color: white;
-    box-shadow: 0px 2px 4px 0px #80808059;
-    /* width: 242px; */
-    /* margin-top: auto; */
-    /* margin-right: 4%; */
-    /* margin-bottom: auto; */
-    /* margin-left: 40px; */
-    border-radius: 18px 18px 18px 18px;
+.card-text p {
+    margin: 0px;
+    line-height: 22px;
 }
+
 
 /* Afficher plus */
 .display-more {
     display: table;
     width: 100%;
-
 }
 
+.display-more a {
+    color: black;
+}
+/* Fin du style pour Hébergement Marseille */
+
+/* Début du style pour le ASIDE  Populaire  */
 i.fas.fa-chart-line {
-    padding-left: 30%;
+    padding-left: 38%;
 }
 
 
 #populaire-side {
     border-radius: 20px;
     background-color: #f2f2f2;
-   /* border: 1px solid fuchsia;*/
-   /* display: grid;
-    grid-template-rows: auto auto auto;*/
+
 }
 
-
 .pop-img-marseille {
+    box-shadow: 0px 2px 4px 0px #80808059;
     background-color: white;
     border-radius: 19px;
-    /* border: 1px solid rosybrown; */
     padding-top: 4px;
     padding-right: 4px;
     padding-left: 4px;
@@ -331,32 +313,6 @@ i.fas.fa-chart-line {
     width: 25vw;
     margin-top: 2%;
     margin-bottom: 7%;
-}
-
-.title-activity-marseille h3 {
-    width: 100%;
-}
-
-#activity-marseille {
-    border: 1px solid fuchsia;
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
-
-.img-activity-marseille {
-
-    width: auto;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-
-}
-
-section#activity-marseille {
-    width: 95%;
-    margin: auto;
-    text-align: justify;
-
 }
 
 section#heb-marseille h3:not(.pop-right) {
@@ -375,6 +331,13 @@ section#heb-marseille h3:not(.pop-right) {
     max-height: 100%;
 }
 
+.heb-right {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+}
+
 figcaption.card-text-right-side {
     text-align: left;
     width: 9em;
@@ -383,18 +346,25 @@ figcaption.card-text-right-side {
 }
 
 p.aside-stars.middle {
-    margin-top: 16%;
+    margin-top: 35%;
 
 }
 
 p.aside-stars {
-    margin-top: 15%;
+    margin-top: 35%;
+}
+
+.aside-stars .fa-star {
+    color: #0065fc;
+}
+
+.aside-stars .wide {
+    color: #d9d9d9;
 }
 
 .container-right {
     display: flex;
     flex-direction: column;
-  /*  justify-content: space-between;*/
     align-content: space-between;
 }
 
@@ -403,7 +373,174 @@ p.aside-stars {
     padding-left: 12%;
 }
 
-footer > #footer-items {
+.container-right a {
+    text-decoration: none;
+}
+/* Fin du style pour le aside */
+
+
+/* Activités à Marseille */
+h3.title-activity {
+    display: block;
+    position: absolute;
+    padding-top: 1%;
+    text-align: justify;
+    padding-left: 3%;
+}
+
+#activity-marseille {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#activity-marseille a {
+    text-decoration: none;
+}
+
+.activity-marseille {
+    padding-top: 6%;
+    display: grid;
+    grid-template-columns: 23% 20% 23% 20%;
+}
+
+.activity-select img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    height: 11em;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Fort de Pomêgues */
+.activity-select-large img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    height: 14rem;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Îles de Frioul */
+.activity-select-small img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    height: 8rem;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/* Utiliser pour le contour des cartes */
+figure.img-activity {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-color: rgb(242, 242, 242);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(242, 242, 242);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(242, 242, 242);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(242, 242, 242);
+    border-left-style: solid;
+    border-left-width: 1px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 12%;
+    margin-inline-end: 0%;
+    box-shadow: 0px 3px 9px -1px #80808059;
+}
+/* Utiliser pour le contour des cartes */
+figure.img-activity-center {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-color: rgb(242, 242, 242);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(242, 242, 242);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(242, 242, 242);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(242, 242, 242);
+    border-left-style: solid;
+    border-left-width: 1px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 15%;
+    margin-inline-end: 0%;
+    box-shadow: 0px 3px 9px -1px #80808059;
+}
+
+/* Style pour les cartes une à une, de la section activités */
+.activity-select-portrait img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    height: 26rem;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.activity-select-portrait-center img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    height: 26rem;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+figcaption.activity-card-text {
+    margin-left: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-style: normal;
+    font-size: smaller;
+    color: black;
+    margin-left: 2%;
+}
+
+.card-text p {
+    margin: 0px;
+    line-height: 22px;
+}
+
+.double-activity-marseille {
+    width: 19em;
+    margin-left: 12.5%;
+}
+
+.activity-select-portrait {
+    width: 23em;
+}
+
+.activity-select-portrait-center {
+    width: 23em;
+    margin-left: 11%;
+}
+
+.double-cards {
+    width: 24em;
+    margin-left: 23%;
+}
+/* Fin du style Activités à Marseille */
+
+
+/* Style du footer */
+footer>#footer-items {
     display: flex;
     justify-content: space-around;
     align-content: flex-start;
@@ -415,32 +552,22 @@ footer {
     margin: auto;
     width: 100%;
 }
-
+/* Fin du stylepour le footer */
 
 /* ADDING MEDIA QUERY */
 
 /*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
-
-}
+@media (max-width: 575.98px) {}
 
 /*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px) {
-
-}
+@media (min-width: 576px) and (max-width: 767.98px) {}
 
 
 /*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) {
-
-}
+@media (min-width: 768px) and (max-width: 991.98px) {}
 
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) {
-
-}
+@media (min-width: 992px) and (max-width: 1199.98px) {}
 
 /*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-
-}
+@media (min-width: 1200px) {}
