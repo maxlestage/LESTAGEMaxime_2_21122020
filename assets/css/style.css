@@ -6,10 +6,12 @@ body {
     margin: auto;
 }
 
-header {
+#page{
     width: 95%;
     margin: auto;
 }
+
+
 
 nav {
     display: flex;
@@ -41,10 +43,7 @@ h2.line-height {
     height: auto;
 }
 
-.top-search {
-    width: 95%;
-    margin: auto;
-}
+
 
 #search-bar ul {
     width: auto;
@@ -93,6 +92,8 @@ li {
 }
 
 /* Début des Filtres */
+
+
 
 #filters>ul {
     /* border: 1px solid black;*/
@@ -151,6 +152,8 @@ li {
 /* Fin du style pour les Filtres */
 
 /* Style créer pour pour le petit i en dessous des filtres */
+
+
 .i-info a {
     text-decoration: none;
 }
@@ -183,11 +186,6 @@ section#heb-marseille h3 {
     padding-top: 4%;
 }
 
-
-section#heb-marseille:not(.title-heb) {
-    width: 95%;
-    margin: auto;
-}
 
 h3.title-heb {
     display: block;
@@ -254,7 +252,7 @@ figcaption.card-text {
     color: #0065fc;
 }
 
-.card-title {
+.aside-title {
     font-weight: bold;
     font-style: normal;
     font-size: smaller;
@@ -299,20 +297,36 @@ i.fas.fa-chart-line {
 #populaire-side {
     border-radius: 20px;
     background-color: #f2f2f2;
-
+    margin-left: 5%;
 }
 
+figure.pop-img-marseille {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin: 5%;
+}
+
+img.pop-img {
+    border-radius: 15px 0px 0 15px;
+    height: 7em;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    width: 25%;
+}
+
+
 .pop-img-marseille {
+    position: relative;
     box-shadow: 0px 2px 4px 0px #80808059;
     background-color: white;
     border-radius: 19px;
-    padding-top: 4px;
-    padding-right: 4px;
-    padding-left: 4px;
-    height: 20vh;
-    width: 25vw;
-    margin-top: 2%;
-    margin-bottom: 7%;
+    height: auto;
+    width: 100%;
+    /* margin-top: 2%; */
+    /* margin-bottom: 7%; */
+    padding: 1%;
 }
 
 section#heb-marseille h3:not(.pop-right) {
@@ -339,19 +353,8 @@ section#heb-marseille h3:not(.pop-right) {
 }
 
 figcaption.card-text-right-side {
-    text-align: left;
-    width: 9em;
-    margin-left: 39%;
-    margin-top: -42%;
-}
-
-p.aside-stars.middle {
-    margin-top: 35%;
-
-}
-
-p.aside-stars {
-    margin-top: 35%;
+    position: absolute;
+    padding-left: 27%;
 }
 
 .aside-stars .fa-star {
@@ -451,10 +454,10 @@ figure.img-activity {
     border-left-color: rgb(242, 242, 242);
     border-left-style: solid;
     border-left-width: 1px;
-    margin-block-start: 1em;
+    /* margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 12%;
-    margin-inline-end: 0%;
+    margin-inline-end: 0%; */
     box-shadow: 0px 3px 9px -1px #80808059;
 }
 /* Utiliser pour le contour des cartes */
@@ -475,10 +478,10 @@ figure.img-activity-center {
     border-left-color: rgb(242, 242, 242);
     border-left-style: solid;
     border-left-width: 1px;
-    margin-block-start: 1em;
+    /* margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 15%;
-    margin-inline-end: 0%;
+    margin-inline-end: 0%; */
     box-shadow: 0px 3px 9px -1px #80808059;
 }
 
@@ -554,20 +557,34 @@ footer {
 }
 /* Fin du stylepour le footer */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ADDING MEDIA QUERY */
 
-/*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {}
-
-/*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px) {}
-
-
-/*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) {}
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {}
 
-/*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {}
+
+
