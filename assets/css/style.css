@@ -116,12 +116,11 @@ input.search {
 
 .btn-search:hover {
     background-color: #5e9bfd;
-
 }
 
 .btn-search:focus-visible, .btn-search:focus  {
+    /* Outline Pour Eviter le contour aux cliques sous firefox */
     outline: 0px;
-
 }
 
 .input-search {
@@ -169,7 +168,8 @@ input.search {
 }
 
 .filter:hover {
-    transform: scale(0.8);
+    transition-duration: 0.8s, 1s;
+    transform: scale(1.2);
 }
 
 .list-filters {
