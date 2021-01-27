@@ -15,6 +15,9 @@ body {
     margin: auto;
 }
 
+li {
+    list-style: none;
+}
 
 header>nav>ul>li>a:hover  {
     display: block;
@@ -81,61 +84,51 @@ h2.line-height {
     height: auto;
 }
 
-#search-bar ul {
-    width: auto;
-    height: 2em;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    padding-inline-start: 10px;
-}
-
-@-moz-document url-prefix(github.io) {
-    .gps-loc {
-        border-radius: 12px 0px 0px 12px;
-        color: black;
-        background-color: #f2f2f2;
-        padding: 11px;
-    }
-  }
-
-.gps-loc {
-    border-radius: 12px 0px 0px 12px;
-    color: black;
-    background-color: #f2f2f2;
-    -moz-appearance : none;
-    padding: 11.5px;
-}
-
-/* Test Webkit pour la barre de recherche avec safari */
-::-webkit-input-placeholder {
-    color: black;
-}
-
 /* Barre de recherche */
-input#site-search {
+/* Localisation, input and rechercher btn */
+#search-bar {
+    display: flex;
+}
+input.search {
+    display: inline;
+}
+.gps-loc {
+    padding: 11px;
+    border-radius: 0.75em 0 0 0.75em;
+    background-color: #f2f2f2;
+    width: 2%;
     border: 1px solid #f2f2f2;
-    text-decoration-line: none;
-    padding: 11px;
-    font-weight: bold;
-    outline-color: #f2f2f2;
+    text-align: center;
 }
 
-button.btn-search {
-    border: 1px solid #0000ff00;
-    border-radius: 0px 12px 12px 0px;
-    text-decoration-line: none;
-    color: white;
+
+.btn-search{
+    padding: 1em;
+    font-size: 13px;
+    margin: auto;
+    border-radius: 0 0.75em  0.75em 0;
     background-color: #0065fc;
-    padding: 11px;
-    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    border: 1px solid #0065fc;
+}
+.input-search {
+    border: 1px solid #f2f2f2;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    height: 44px;
 }
 
-li {
-    list-style: none;
-}
+
+
+
+
 
 /* Début des Filtres */
+
+
 
 #filters>ul {
     /* border: 1px solid black;*/
