@@ -190,6 +190,10 @@ li {
 
 /* Style créer pour pour le petit i en dessous des filtres */
 
+section#info {
+    margin-bottom: 3%;
+}
+
 .i-info a {
     text-decoration: none;
 }
@@ -215,6 +219,7 @@ li {
 #heb-marseille {
     display: flex;
     justify-content: space-between;
+    /* Margin Utilisé pour le rendu de l'ancre vers Hébergements */
 }
 
 section#heb-marseille h3 {
@@ -609,6 +614,16 @@ footer {
     background-color: #f2f2f2;
     margin: auto;
     width: 100%;
+    padding: 2% 0% 2%;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.about {
+    margin-left: -8%;
 }
 
 /* Fin du stylepour le footer */
