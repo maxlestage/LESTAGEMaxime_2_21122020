@@ -39,7 +39,7 @@ header>a {
 }
 header>a:hover{
     color: #0065fc;
-    text-decoration: none;
+    text-decoration: none; 
 }
 /* Fin du style pour s'inscrire  */
 
