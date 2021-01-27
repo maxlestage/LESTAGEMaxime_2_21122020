@@ -121,7 +121,7 @@ input.search {
 
 .btn-search:focus-visible, .btn-search:focus  {
     outline: 0px;
-   
+
 }
 
 .input-search {
@@ -129,7 +129,7 @@ input.search {
     width: 100%;
     font-size: 15px;
     text-align: center;
-    height: 44px;
+    height: 100%;
 }
 .input-search:focus-visible {
     outline: 0px
