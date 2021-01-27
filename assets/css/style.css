@@ -90,7 +90,7 @@ h2.line-height {
     padding-inline-start: 10px;
 }
 
-@-moz-document url-prefix(https://maxlestage.github.io/LESTAGEMaxime_2_21122020) {
+@-moz-document url-prefix(github.io) {
     .gps-loc {
         border-radius: 12px 0px 0px 12px;
         color: black;
@@ -103,6 +103,7 @@ h2.line-height {
     border-radius: 12px 0px 0px 12px;
     color: black;
     background-color: #f2f2f2;
+    -moz-appearance : none;
     padding: 11.5px;
 }
 
