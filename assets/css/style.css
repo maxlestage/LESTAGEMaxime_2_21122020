@@ -1,39 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap");
+
+
+
 
 body {
-    font-family: 'Raleway', sans-serif;
-    padding-top: 3%;
+    font-family: "Raleway", sans-serif;
     margin: auto;
+    scroll-behavior: auto;
+    scroll-behavior: smooth;
 }
 
-#page{
+#page {
     width: 95%;
     margin: auto;
 }
 
 
+header>nav>ul>li>a:hover  {
+    display: block;
+    border-top: 2px solid #0065fc;
+    color: #0065fc;
+}
 
-nav {
-    display: flex;
-    flex-direction: row;
+header>nav>ul>li>a   {
+    display: block;
+    border-top: 2px solid transparent;
+    color: black;
+    text-decoration: none;
+}
+
+header>a {
+    color: black;
+    text-decoration: none;
+}
+header>a:hover{
+    color: #0065fc;
+    text-decoration: none;
 }
 
 .logo-brand {
+    width: 10%;
+}
+
+header {
     display: flex;
-    width: 10%;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
 }
 
-.brand-logo img {
-    width: 10%;
-}
-
-.nav-items {
+header>nav>ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    width: 90%;
-    padding-right: 5%;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
 }
+
+header a {
+    margin-top: 0px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    margin-left: 35px;
+    padding-top: 35px;
+}
+
+.top-nav {
+    width: 80%;
+}
+
 /* Fin du style pour la Navbar du haut */
 
 /* Début du style pour les Filtres */
@@ -42,8 +80,6 @@ h2.line-height {
     font-size: 13px;
     height: auto;
 }
-
-
 
 #search-bar ul {
     width: auto;
@@ -66,7 +102,6 @@ h2.line-height {
     color: black;
 }
 
-
 /* Barre de recherche */
 input#site-search {
     border: 1px solid #f2f2f2;
@@ -86,14 +121,11 @@ button.btn-search {
     font-weight: bold;
 }
 
-
 li {
     list-style: none;
 }
 
 /* Début des Filtres */
-
-
 
 #filters>ul {
     /* border: 1px solid black;*/
@@ -111,7 +143,7 @@ li {
 }
 
 #filters p {
-    border: 3px solid #F2F2F2;
+    border: 3px solid #f2f2f2;
     /* border: 3px solid #f2f2f2;*/
     border-radius: 30px;
     margin-top: 2vh;
@@ -122,6 +154,10 @@ li {
     text-decoration: none;
     color: black;
     font-weight: bold;
+}
+
+.filter:hover {
+    transform: scale(0.8);
 }
 
 .list-filters {
@@ -149,10 +185,10 @@ li {
     width: 12%;
     margin-right: -2%;
 }
+
 /* Fin du style pour les Filtres */
 
 /* Style créer pour pour le petit i en dessous des filtres */
-
 
 .i-info a {
     text-decoration: none;
@@ -170,8 +206,9 @@ li {
     /* Pour la taille du cercle qui entoure le i*/
     border-radius: 50%;
     color: #0065fc;
-    border: 1px solid #F2F2F2;
+    border: 1px solid #f2f2f2;
 }
+
 /* Fin du style du petit i */
 
 /* Début du style pour L'Hébergement à Marseille */
@@ -185,7 +222,6 @@ section#heb-marseille h3 {
     padding-left: 11%;
     padding-top: 4%;
 }
-
 
 h3.title-heb {
     display: block;
@@ -205,7 +241,7 @@ figure.img-marseille {
 
 .heb-row {
     border-radius: 20px;
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
     padding-top: 6%;
     padding-left: 2em;
     padding-right: 3%;
@@ -276,7 +312,6 @@ i.fa.fa-star {
     line-height: 22px;
 }
 
-
 /* Afficher plus */
 .display-more {
     display: table;
@@ -286,13 +321,13 @@ i.fa.fa-star {
 .display-more a {
     color: black;
 }
+
 /* Fin du style pour Hébergement Marseille */
 
 /* Début du style pour le ASIDE  Populaire  */
 i.fas.fa-chart-line {
     padding-left: 38%;
 }
-
 
 #populaire-side {
     border-radius: 20px;
@@ -317,7 +352,6 @@ img.pop-img {
     width: 35%;
 }
 
-
 .pop-img-marseille {
     position: relative;
     box-shadow: 0px 2px 4px 0px #80808059;
@@ -335,7 +369,6 @@ section#heb-marseille h3:not(.pop-right) {
     text-align: justify;
     padding-left: 3%;
 }
-
 
 .heb-right img {
     width: 100%;
@@ -385,9 +418,8 @@ p.aside-title {
 }
 
 p.aside-stars {
-    line-height: 95px;
+    line-height: 6em;
 }
-
 
 .container-right {
     display: flex;
@@ -403,8 +435,8 @@ p.aside-stars {
 .container-right a {
     text-decoration: none;
 }
-/* Fin du style pour le aside */
 
+/* Fin du style pour le aside */
 
 /* Activités à Marseille */
 h3.title-activity {
@@ -459,7 +491,6 @@ h3.title-activity {
     max-height: 100%;
 }
 
-
 /* Utiliser pour le contour des cartes */
 figure.img-activity {
     border-top-left-radius: 20px;
@@ -484,6 +515,7 @@ figure.img-activity {
     margin-inline-end: 0%; */
     box-shadow: 0px 3px 9px -1px #80808059;
 }
+
 /* Utiliser pour le contour des cartes */
 figure.img-activity-center {
     border-top-left-radius: 20px;
@@ -563,8 +595,8 @@ figcaption.activity-card-text {
     width: 24em;
     margin-left: 23%;
 }
-/* Fin du style Activités à Marseille */
 
+/* Fin du style Activités à Marseille */
 
 /* Style du footer */
 footer>#footer-items {
@@ -573,26 +605,13 @@ footer>#footer-items {
     align-content: flex-start;
 }
 
-
 footer {
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
     margin: auto;
     width: 100%;
 }
+
 /* Fin du stylepour le footer */
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ADDING MEDIA QUERY */
 
@@ -610,5 +629,3 @@ footer {
 
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {}
-
-
