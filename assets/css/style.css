@@ -32,10 +32,16 @@ header>nav>ul>li>a   {
     text-decoration: none;
 }
 
+/*  Petit code pour le s'incrire */
 header>a {
     color: black;
     text-decoration: none;
 }
+header>a:hover{
+    color: #0065fc;
+    text-decoration: none;
+}
+/* Fin du style pour s'inscrire  */
 
 .logo-brand {
     width: 10%;
