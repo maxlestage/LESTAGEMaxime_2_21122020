@@ -104,15 +104,26 @@ input.search {
 
 .btn-search{
     padding: 1em;
-    font-size: 13px;
+    font-size: 14px;
     margin: auto;
-    border-radius: 0 0.75em  0.75em 0;
+    border-radius: 0 0.75em 0.75em 0;
     background-color: #0065fc;
     color: white;
     cursor: pointer;
     width: 100%;
-    border: 1px solid #0065fc;
+    border: 0px solid #0065fc;
 }
+
+.btn-search:hover {
+    background-color: #5e9bfd;
+
+}
+
+.btn-search:focus-visible, .btn-search:focus  {
+    outline: 0px;
+   
+}
+
 .input-search {
     border: 1px solid #f2f2f2;
     width: 100%;
@@ -120,11 +131,9 @@ input.search {
     text-align: center;
     height: 44px;
 }
-
-
-
-
-
+.input-search:focus-visible {
+    outline: 0px
+}
 
 /* Début des Filtres */
 
