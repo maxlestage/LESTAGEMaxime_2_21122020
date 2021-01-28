@@ -18,13 +18,13 @@ li {
     list-style: none;
 }
 
-header>nav>ul>li>a:hover  {
+header>nav>ul>li>a:hover {
     display: block;
     border-top: 2px solid #0065fc;
     color: #0065fc;
 }
 
-header>nav>ul>li>a   {
+header>nav>ul>li>a {
     display: block;
     border-top: 2px solid transparent;
     color: black;
@@ -36,10 +36,12 @@ header>a {
     color: black;
     text-decoration: none;
 }
-header>a:hover{
+
+header>a:hover {
     color: #0065fc;
     text-decoration: none;
 }
+
 /* Fin du style pour s'inscrire  */
 
 .logo-brand {
@@ -90,9 +92,11 @@ h2.line-height {
 #search-bar {
     display: flex;
 }
+
 input.search {
     display: inline;
 }
+
 .gps-loc {
     padding: 11px;
     border-radius: 0.75em 0 0 0.75em;
@@ -102,7 +106,7 @@ input.search {
     text-align: center;
 }
 
-.btn-search{
+.btn-search {
     padding: 1em;
     font-size: 14px;
     margin: auto;
@@ -118,7 +122,8 @@ input.search {
     background-color: #5e9bfd;
 }
 
-.btn-search:focus-visible, .btn-search:focus  {
+.btn-search:focus-visible,
+.btn-search:focus {
     /* Outline Pour Eviter le contour aux cliques sous firefox */
     outline: 0px;
 }
@@ -130,6 +135,7 @@ input.search {
     text-align: center;
     height: 100%;
 }
+
 .input-search:focus-visible {
     outline: 0px
 }
@@ -166,9 +172,16 @@ input.search {
     font-weight: bold;
 }
 
+.filter {
+    background-color: transparent;
+}
+
 .filter:hover {
-    transition-duration: 0.8s, 1s;
-    transform: scale(1.2);
+
+    border-radius: 30px;
+    transform: rotate(10deg);
+    box-shadow: 0px 8px 9px 0px #818181;
+    transition: all .2s;
 }
 
 .list-filters {
@@ -306,15 +319,25 @@ figure.img-marseille {
     border-radius: 18px;
     margin: 2%;
 }
+
+.heb-select:hover {
+    /* border-radius: 30px; */
+    transform: rotate(
+10deg
+);
+    box-shadow: 0px 8px 9px 0px #818181;
+    transition: all .2s;
+}
+
 /* .heb-select {
     /* border: 1px solid cornflowerblue;
     background-color: white;
     box-shadow: 0px 2px 4px 0px #80808059;
     /* width: 242px; */
-    /* margin-top: auto; */
-    /* margin-right: 4%; */
-    /* margin-bottom: auto; */
-    /* margin-left: 40px;
+/* margin-top: auto; */
+/* margin-right: 4%; */
+/* margin-bottom: auto; */
+/* margin-left: 40px;
     border-radius: 18px 18px 18px 18px;
 } */
 
@@ -383,6 +406,13 @@ figure.pop-img-marseille {
     flex-direction: row;
     width: auto;
     margin: 6%;
+}
+
+figure.pop-img-marseille:hover  {
+    /* border-radius: 30px; */
+    transform: rotate(4deg);
+    box-shadow: 0px 8px 9px 0px #818181;
+    transition: all .2s;
 }
 
 img.pop-img {
@@ -551,13 +581,10 @@ figure.img-activity {
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-left-color: rgb(242, 242, 242);
-    border-left-style: solid;
-    border-left-width: 1px;
-    /* margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 12%;
-    margin-inline-end: 0%; */
+    /* border-left-style: solid; */
+    /* border-left-width: 1px; */
     box-shadow: 0px 3px 9px -1px #80808059;
+    margin: auto;
 }
 
 /* Utiliser pour le contour des cartes */
@@ -622,17 +649,19 @@ figcaption.activity-card-text {
 }
 
 .double-activity-marseille {
-    /* width: 19em;
-    margin-left: 12.5%; */
+    margin: 0px 30px;
+
 }
 
 .activity-select-portrait {
-    width: 75%;
+    width: 50%;
 }
 
 .activity-select-portrait-center {
     /* width: 23em;
     margin-left: 11%; */
+    margin: 0px 30px 0px 0px;
+    width: 50%;
 }
 
 .double-cards {
@@ -640,6 +669,13 @@ figcaption.activity-card-text {
     margin-left: 23%; */
 }
 
+.activity-select-large {
+    margin-bottom: 17px;
+}
+
+.activity-select-top{
+    margin-bottom: 17px;
+}
 /* Fin du style Activités à Marseille */
 
 /* Style du footer */
@@ -693,6 +729,7 @@ footer a {
         display: flex;
         flex-direction: row;
     }
+
     .double-activity-marseille {
         /* width: 19em; */
         /* margin-left: 12.5%; */
@@ -701,7 +738,7 @@ footer a {
 
 
 
-        /* Footer */
+    /* Footer */
     footer>#footer-items {
         display: flex;
         justify-content: space-evenly;
@@ -717,13 +754,7 @@ footer a {
 @media (min-width: 768px) and (max-width: 991.98px) {}
 
 /*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px) {
-
-}
+@media (min-width: 576px) and (max-width: 767.98px) {}
 
 /*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
-
-
-}
-
+@media (max-width: 575.98px) {}
