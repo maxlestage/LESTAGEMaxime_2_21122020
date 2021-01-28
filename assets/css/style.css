@@ -177,11 +177,13 @@ input.search {
 }
 
 .filter:hover {
-
     border-radius: 30px;
-    transform: rotate(10deg);
+    /* transform: rotate(
+10deg
+); */
     box-shadow: 0px 8px 9px 0px #818181;
     transition: all .2s;
+    background-color: #f1f7ff;
 }
 
 .list-filters {
@@ -262,6 +264,7 @@ figure.img-marseille {
     margin-block-start: 1.5%;
     margin-inline-start: 2%;
     margin-inline-end: 2%;
+    margin-bottom: 5px;
 }
 
 .heb-row a {
