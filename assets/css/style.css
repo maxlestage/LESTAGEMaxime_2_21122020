@@ -657,12 +657,56 @@ figcaption.activity-card-text {
     width: 50%;
 }
 
+.activity-select-portrait:hover {
+    transform: rotate(
+        4deg
+         );
+            box-shadow: 0px 8px 9px 0px #818181;
+            transition: all .2s;
+    border-radius: 20px;
+}
+
 .activity-select-portrait-center {
     /* width: 23em;
     margin-left: 11%; */
     margin: 0px 30px 0px 0px;
     width: 50%;
 }
+.activity-select-portrait-center:hover{
+    transform: rotate(
+        4deg
+         );
+            box-shadow: 0px 8px 9px 0px #818181;
+            transition: all .2s;
+    border-radius: 20px;
+}
+
+
+.activity-select-small:hover {
+    transform: rotate(-4deg);
+            box-shadow: 0px 8px 9px 0px #818181;
+            transition: all .2s;
+    border-radius: 20px;
+}
+
+.activity-select-large:hover {
+    transform: rotate(
+-4deg
+);
+    box-shadow: 0px 8px 9px 0px #818181;
+    transition: all .2s;
+    border-radius: 20px;
+}
+
+.activity-select:hover ,.activity-select-top:hover {
+    transform: rotate(
+-4deg
+);
+    box-shadow: 0px 8px 9px 0px #818181;
+    transition: all .2s;
+    border-radius: 20px;
+}
+
 
 .double-cards {
     /* width: 24em;
