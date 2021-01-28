@@ -6,8 +6,7 @@
 body {
     font-family: "Raleway", sans-serif;
     margin: auto;
-    scroll-behavior: auto;
-    scroll-behavior: smooth;
+
 }
 
 #page {
@@ -144,6 +143,7 @@ input.search {
     justify-content: flex-start;
     height: auto;
     margin-left: -35px;
+    align-items: baseline;
 }
 
 #filters li:not(.title-filters) {
@@ -500,8 +500,10 @@ h3.title-activity {
 
 .activity-marseille {
     padding-top: 6%;
-    display: grid;
-    grid-template-columns: 23% 20% 23% 20%;
+    /* display: grid;
+    grid-template-columns: 23% 20% 23% 20%; */
+    display: flex;
+    flex-direction: row;
 }
 
 .activity-select img {
@@ -620,22 +622,22 @@ figcaption.activity-card-text {
 }
 
 .double-activity-marseille {
-    width: 19em;
-    margin-left: 12.5%;
+    /* width: 19em;
+    margin-left: 12.5%; */
 }
 
 .activity-select-portrait {
-    width: 23em;
+    width: 75%;
 }
 
 .activity-select-portrait-center {
-    width: 23em;
-    margin-left: 11%;
+    /* width: 23em;
+    margin-left: 11%; */
 }
 
 .double-cards {
-    width: 24em;
-    margin-left: 23%;
+    /* width: 24em;
+    margin-left: 23%; */
 }
 
 /* Fin du style Activités à Marseille */
@@ -668,7 +670,45 @@ footer a {
 /* ADDING MEDIA QUERY */
 
 /*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {}
+@media (min-width: 1450px) {
+    #page {
+        width: 70%;
+        margin: auto;
+    }
+
+    .heb-row {
+        padding-top: 6%;
+        border-radius: 20px;
+        background-color: #f2f2f2;
+        width: 65%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .activity-marseille {
+        padding-top: 6%;
+        /* display: grid;
+        grid-template-columns: 23% 20% 23% 20%; */
+        display: flex;
+        flex-direction: row;
+    }
+    .double-activity-marseille {
+        /* width: 19em; */
+        /* margin-left: 12.5%; */
+    }
+
+
+
+
+        /* Footer */
+    footer>#footer-items {
+        display: flex;
+        justify-content: space-evenly;
+        align-content: flex-start;
+    }
+
+}
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {}
