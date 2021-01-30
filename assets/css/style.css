@@ -1,17 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap");
 
-
-
-
 body {
     font-family: "Raleway", sans-serif;
     margin: auto;
-
 }
 
 #page {
-    width: 95%;
+    border: 1px solid black;
+    width: 90%;
     margin: auto;
+    padding-left: 48px;
+    padding-right: 48px;
 }
 
 li {
@@ -78,13 +77,18 @@ header a {
     width: 80%;
 }
 
+#top-search > h1 {
+    margin-bottom: 0.5%;
+}
+
 /* Fin du style pour la Navbar du haut */
 
 /* Début du style pour les Filtres */
 h2.line-height {
     font-weight: lighter;
-    font-size: 13px;
+    font-size: 1.1em;
     height: auto;
+    margin-bottom: 2%;
 }
 
 /* Barre de recherche */
@@ -155,7 +159,7 @@ input.search {
 #filters li:not(.title-filters) {
     /*border: 1px solid #f2f2f2;*/
     border-radius: 35px 35px;
-    margin-left: 5%;
+    margin-left: 2%;
 }
 
 #filters p {
@@ -181,9 +185,9 @@ input.search {
     /* transform: rotate(
 10deg
 ); */
-box-shadow: inset -4px -4px 4px 0px #818181;
-/* transition: all .2s; */
-background-color: #f1f7ff;
+    box-shadow: inset -4px -4px 4px 0px #818181;
+    /* transition: all .2s; */
+    background-color: #f1f7ff;
 }
 
 .list-filters {
@@ -250,7 +254,7 @@ section#info {
 
 section#heb-marseille h3 {
     text-align: justify;
-    padding-left: 11%;
+    padding-left: 6%;
     padding-top: 4%;
 }
 
@@ -286,14 +290,17 @@ figure.img-marseille {
     padding-bottom: 5%;
 } */
 
+
+
+
 .heb-row {
-    padding-top: 6%;
+    padding-top: 7%;
     border-radius: 20px;
     background-color: #f2f2f2;
-    width: 70%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 
 
 
@@ -325,9 +332,7 @@ figure.img-marseille {
 
 .heb-select:hover {
     /* border-radius: 30px; */
-    transform: rotate(
-10deg
-);
+    transform: rotate(10deg);
     box-shadow: 0px 8px 9px 0px #818181;
     transition: all .2s;
 }
@@ -394,15 +399,17 @@ i.fa.fa-star {
 
 /* Début du style pour le ASIDE  Populaire  */
 i.fas.fa-chart-line {
-    padding-left: 38%;
+    padding-left: 41%;
 }
+
 
 #populaire-side {
     border-radius: 20px;
     background-color: #f2f2f2;
     margin-left: 3%;
-    width: 35%;
+    width: 60%;
 }
+
 
 figure.pop-img-marseille {
     display: flex;
@@ -411,7 +418,7 @@ figure.pop-img-marseille {
     margin: 6%;
 }
 
-figure.pop-img-marseille:hover  {
+figure.pop-img-marseille:hover {
     /* border-radius: 30px; */
     transform: rotate(4deg);
     box-shadow: 0px 8px 9px 0px #818181;
@@ -442,7 +449,7 @@ img.pop-img {
 section#heb-marseille h3:not(.pop-right) {
     padding-top: 1%;
     text-align: justify;
-    padding-left: 3%;
+    padding-left: 3.5%;
 }
 
 .heb-right img {
@@ -467,6 +474,8 @@ figcaption.card-text-right-side {
     position: absolute;
     left: 38%;
 }
+
+
 
 .aside-stars .fa-star {
     color: #0065fc;
@@ -660,12 +669,10 @@ figcaption.activity-card-text {
     width: 50%;
 }
 
-.activity-select-portrait:hover {
-    transform: rotate(
-        4deg
-         );
-            box-shadow: 0px 8px 9px 0px #818181;
-            transition: all .2s;
+.activity-select-portrait> a > figure:hover{
+    transform: rotate(4deg);
+    box-shadow: 0px 8px 9px 0px #818181;
+    transition: all .2s;
     border-radius: 20px;
 }
 
@@ -675,54 +682,48 @@ figcaption.activity-card-text {
     margin: 0px 30px 0px 0px;
     width: 50%;
 }
-.activity-select-portrait-center:hover{
-    transform: rotate(
-        4deg
-         );
-            box-shadow: 0px 8px 9px 0px #818181;
-            transition: all .2s;
+
+.activity-select-portrait-center > a > figure:hover {
+    transform: rotate(4deg);
+    box-shadow: 0px 8px 9px 0px #818181;
+    transition: all .2s;
     border-radius: 20px;
 }
 
 
 .activity-select-small:hover {
     transform: rotate(-4deg);
-            box-shadow: 0px 8px 9px 0px #818181;
-            transition: all .2s;
+    box-shadow: 0px 8px 9px 0px #818181;
+    transition: all .2s;
     border-radius: 20px;
 }
 
 .activity-select-large:hover {
-    transform: rotate(
--4deg
-);
+    transform: rotate(-4deg);
     box-shadow: 0px 8px 9px 0px #818181;
     transition: all .2s;
     border-radius: 20px;
 }
 
-.activity-select:hover ,.activity-select-top:hover {
-    transform: rotate(
--4deg
-);
+.activity-select:hover,
+.activity-select-top:hover {
+    transform: rotate(-4deg);
     box-shadow: 0px 8px 9px 0px #818181;
     transition: all .2s;
     border-radius: 20px;
 }
 
 
-.double-cards {
-    /* width: 24em;
-    margin-left: 23%; */
-}
+
 
 .activity-select-large {
     margin-bottom: 30px;
 }
 
-.activity-select-top{
+.activity-select-top {
     margin-bottom: 30px;
 }
+
 /* Fin du style Activités à Marseille */
 
 /* Style du footer */
@@ -759,15 +760,30 @@ footer a {
         margin: auto;
     }
 
+
+
+    section#heb-marseille h3:not(.pop-right) {
+        padding-top: 1%;
+        text-align: justify;
+        padding-left: 2%;
+    }
+
     .heb-row {
-        padding-top: 6%;
+        padding-top: 7%;
         border-radius: 20px;
         background-color: #f2f2f2;
-        width: 65%;
+        /* width: 65%; */
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
+
+
+    i.fas.fa-chart-line {
+        padding-left: 45%;
+    }
+
+
 
     .activity-marseille {
         padding-top: 6%;
@@ -776,13 +792,6 @@ footer a {
         display: flex;
         flex-direction: row;
     }
-
-    .double-activity-marseille {
-        /* width: 19em; */
-        /* margin-left: 12.5%; */
-    }
-
-
 
 
     /* Footer */
@@ -798,10 +807,174 @@ footer a {
 @media (min-width: 992px) and (max-width: 1199.98px) {}
 
 /*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    #heb-marseille {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .block-heb-marseille {
+        order: 2;
+    }
+
+    .heb-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .activity-marseille {
+        order: 1;
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 /*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    #heb-marseille {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .block-heb-marseille {
+        order: 2;
+    }
+
+    .heb-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .activity-marseille {
+        order: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
 
 /*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+
+    #page {
+        border: 1px solid black;
+        width: 100%;
+        margin: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .nav-log {
+        margin-left: 5%;
+    }
+
+    header>nav>ul>li>a {
+        display: contents;
+    border-top: 0px solid transparent;
+    color: black;
+    text-decoration: none;
+    }
+
+    header > nav > ul > li > a:hover {
+        display: contents;
+        border-bottom: 2px solid #0065fc;
+        color: #0065fc;
+
+    }
+
+    .nav-content {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    .item-bar-hover.item-bar-hover-left {
+        display: block;
+        width: 50%;
+        border-bottom: 2px solid #f2f2f2;
+        padding-bottom: 20px;
+    }
+
+    .item-bar-hover.item-bar-hover-right {
+        display: block;
+        width: 50%;
+        border-bottom: 2px solid #f2f2f2;
+        padding-bottom: 20px;
+    }
+
+
+    .item-bar-hover.item-bar-hover-left:hover {
+        border-bottom: 2px solid #0065fc;
+        padding-bottom: 20px;
+        cursor: pointer;
+
+    }
+    .item-bar-hover.item-bar-hover-right:hover {
+        border-bottom: 2px solid #0065fc;
+        padding-bottom: 20px;
+        cursor: pointer;
+
+    }
+
+
+    .sign-up{
+        order: 1;
+        padding-left: 50%;
+        color: #0065fc;
+    }
+    .sign-up:hover {
+        color: #dfecff;
+        text-decoration: none;
+    }
+
+    .top-nav{
+        order: 2;
+        width: 100%;
+        display: flex;
+    }
+
+
+    .nav-heb {
+
+        width: 50%;
+    }
+
+    .nav-act {
+
+        width: 50%;
+    }
+
+
+
+    #heb-marseille {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .block-heb-marseille {
+        order: 2;
+    }
+
+    .heb-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .activity-marseille {
+        order: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+}

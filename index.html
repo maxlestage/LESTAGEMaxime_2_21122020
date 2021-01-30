@@ -14,16 +14,16 @@
     <div id="page">
         <header>
             <!-- Top Nav bar -->
-            <img alt="Logo de l'entreprise Reservia" class="brand-logo" src="assets/images/logo/Reservia.svg" />
+            <div class="nav-log"><img alt="Logo de l'entreprise Reservia" class="brand-logo" src="assets/images/logo/Reservia.svg" /></div>
             <nav class="top-nav">
-                <ul>
+                <ul class="nav-content">
                     <!-- list-style:none   -->
-                    <li class="item-bar-hover">
+                    <li class="item-bar-hover item-bar-hover-left">
                         <!-- a:hover a:focus border-top: 1px solid bleu color: bleu; pour le texte -->
-                        <a href="#hebergements">Hébergements</a>
+                        <a class="nav-heb" href="#hebergements">Hébergements</a>
                     </li>
-                    <li class="item-bar-hover">
-                        <a href="#activity-marseille">Activités</a>
+                    <li class="item-bar-hover item-bar-hover-right">
+                        <a class="nav-act" href="#activity-marseille">Activités</a>
                     </li>
                 </ul>
             </nav>
@@ -55,7 +55,7 @@
                 </li>
                 <li>
                     <div class="filter">
-                        <p>
+                        <p class="money-ico">
                             <i aria-hidden="true" class="fa fa-money-bill-wave filter-logo"></i>
                             <a class="list-filters" href="#">Économique</a>
                         </p>
@@ -63,7 +63,7 @@
                 </li>
                 <li>
                     <div class="filter">
-                        <p>
+                        <p class="child-ico">
                             <i aria-hidden="true" class="fa fa-child filter-logo"></i>
                             <a class="list-filters" href="#">Familial</a>
                         </p>
@@ -71,7 +71,7 @@
                 </li>
                 <li>
                     <div class="filter">
-                        <p>
+                        <p class="heart-ico">
                             <i aria-hidden="true" class="fa fa-heart filter-logo"></i>
                             <a class="list-filters" href="#">Romantique</a>
                         </p>
@@ -79,7 +79,7 @@
                 </li>
                 <li>
                     <div class="filter">
-                        <p>
+                        <p class="dog-ico">
                             <i aria-hidden="true" class="fa fa-dog filter-logo"></i>
                             <a class="list-filters" href="#">Animaux autorisés</a>
                         </p>
@@ -99,6 +99,7 @@
         <article id="hebergements">
             <!-- Hébergements à Marseille -->
             <section id="heb-marseille">
+                <!-- <div> -->
                 <h3 class="title-heb">Hébergement à Marseille</h3>
                 <div class="heb-row">
                     <!-- CARTE 1 -->
@@ -218,6 +219,7 @@
                     <div class="display-more">
                         <h3><a href="">Afficher plus</a></h3>
                     </div>
+                <!-- </div> -->
                 </div>
                 <!-- Les Plus Populaires -->
                 <aside id="populaire-side">
@@ -233,13 +235,13 @@
                             <figcaption class="card-text-right-side">
                                 <p class="aside-title">Hôtel Le Soleil du matin</p>
                                 <p class="aside-light">Nuit à partir de 128€</p>
-                                <p class="aside-stars">
+                                <div class="aside-stars">
                                     <i aria-hidden="true" class="fa fa-star"></i>
                                     <i aria-hidden="true" class="fa fa-star"></i>
                                     <i aria-hidden="true" class="fa fa-star"></i>
                                     <i aria-hidden="true" class="fa fa-star"></i>
                                     <i aria-hidden="true" class="fa fa-star"></i>
-                                </p>
+                                </div>
                             </figcaption>
                         </figure>
                     </a>
@@ -250,13 +252,13 @@
                             <figcaption class="card-text-right-side">
                                 <p class="aside-title">Au coeur de l'eau chambres d'hôtes</p>
                                 <p class="aside-light">Nuit à partir de 71€</p>
-                                <p class="aside-stars">
+                                <div class="aside-stars">
                                     <i aria-hidden="true" class="fa fa-star"></i>
                                     <i aria-hidden="true" class="fa fa-star"></i>
                                     <i aria-hidden="true" class="fa fa-star"></i>
                                     <i aria-hidden="true" class="fa fa-star"></i>
                                     <i aria-hidden="true" class="fa fa-star wide"></i>
-                                </p>
+                                </div>
                             </figcaption>
                         </figure>
                     </a>
@@ -268,13 +270,13 @@
                             <figcaption class="card-text-right-side">
                                 <p class="aside-title">Hôtel Tout Bleu et Blanc</p>
                                 <p class="aside-light">Nuit à partir de 68€</p>
-                                <p class="aside-stars">
+                                <div class="aside-stars">
                                     <i aria-hidden="true" class="fa fa-star"></i>
                                     <i aria-hidden="true" class="fa fa-star"></i>
                                     <i aria-hidden="true" class="fa fa-star"></i>
                                     <i aria-hidden="true" class="fa fa-star"></i>
                                     <i aria-hidden="true" class="fa fa-star wide"></i>
-                                </p>
+                                </div>
                             </figcaption>
                         </figure>
                     </a>
