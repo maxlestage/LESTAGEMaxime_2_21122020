@@ -956,10 +956,93 @@ footer a {
     }
 
 
+    #top-search > h1 {
+        margin-bottom: 0.5%;
+        font-size: 1.7em;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .line-height {
+        width: 100%;
+        text-align: center;
+        font-weight: lighter;
+        font-size: 1.7em;
+        height: auto;
+        margin-bottom: 2%;
+    }
+
+    .title-filters {
+        display: block;
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    #filters > ul {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+
+    #filters li:not(.title-filters) {
+        margin-left: 0%;
+    }
+
+    .money {
+        order: 1;
+    }
+
+
+    .child {
+        order: 2;
+    }
+
+    .heart {
+        order: 3;
+    }
+
+    .dog {
+        order: 4;
+    }
+
+
+
+    .i-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    #search-bar {
+        display: flex;
+        display: flex;
+        justify-content: center;
+    }
+
 
     #heb-marseille {
         display: flex;
         flex-direction: column;
+    }
+
+
+    .heb-select {
+
+        background-color: white;
+        box-shadow: 0px 2px 4px 0px #80808059;
+        width: 27%;
+
+        margin-bottom: auto;
+
+        border-radius: 18px;
+        margin: 2%;
+            margin-top: 2%;
+            margin-right: 2%;
+            margin-bottom: 2%;
+            margin-left: 2%;
     }
 
     .block-heb-marseille {
