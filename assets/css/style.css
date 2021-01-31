@@ -47,6 +47,10 @@ header>a:hover {
     width: 10%;
 }
 
+.sign-up {
+    order: 3;
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -246,6 +250,11 @@ section#info {
 /* Fin du style du petit i */
 
 /* Début du style pour L'Hébergement à Marseille */
+
+.block-heb-marseille {
+   display:;
+}
+
 #heb-marseille {
     display: flex;
     justify-content: space-between;
@@ -855,8 +864,9 @@ footer a {
 
 }
 
+
 /*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
+@media (min-width: 576px) and (max-width: 768px) {
 
     #page {
         border: 1px solid black;
@@ -930,7 +940,7 @@ footer a {
 
     .sign-up{
         order: 1;
-        padding-left: 50%;
+        padding-left: 40%;
         color: #0065fc;
     }
     .sign-up:hover {
@@ -1060,4 +1070,1028 @@ footer a {
         flex-direction: column;
     }
 
+}
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 426px) and (max-width: 575px) {
+
+    #page {
+        border: 1px solid black;
+        width: 100%;
+        margin: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .nav-log {
+        margin-left: 5%;
+    }
+
+    header>nav>ul>li>a {
+        display: contents;
+    border-top: 0px solid transparent;
+    color: black;
+    text-decoration: none;
+    }
+
+    header > nav > ul > li > a:hover {
+        display: contents;
+        border-bottom: 2px solid #0065fc;
+        color: #0065fc;
+
+    }
+
+    .nav-content {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    .item-bar-hover.item-bar-hover-left {
+        display: block;
+        width: 50%;
+        border-bottom: 2px solid #f2f2f2;
+        padding-bottom: 20px;
+    }
+
+    .item-bar-hover.item-bar-hover-right {
+        display: block;
+        width: 50%;
+        border-bottom: 2px solid #f2f2f2;
+        padding-bottom: 20px;
+    }
+
+
+    .item-bar-hover.item-bar-hover-left:hover {
+        border-bottom: 2px solid #0065fc;
+        padding-bottom: 20px;
+        cursor: pointer;
+
+    }
+    .item-bar-hover.item-bar-hover-right:hover {
+        border-bottom: 2px solid #0065fc;
+        padding-bottom: 20px;
+        cursor: pointer;
+
+    }
+
+
+    .sign-up{
+        order: 1;
+        padding-left: 40%;
+        color: #0065fc;
+    }
+    .sign-up:hover {
+        color: #dfecff;
+        text-decoration: none;
+    }
+
+    .top-nav{
+        order: 2;
+        width: 100%;
+        display: flex;
+    }
+
+
+    .nav-heb {
+
+        width: 50%;
+    }
+
+    .nav-act {
+
+        width: 50%;
+    }
+
+
+    #top-search > h1 {
+        margin-bottom: 0.5%;
+        font-size: 1.7em;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .line-height {
+        width: 100%;
+        text-align: center;
+        font-weight: lighter;
+        font-size: 1.7em;
+        height: auto;
+        margin-bottom: 2%;
+    }
+
+    .title-filters {
+        display: block;
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    #filters > ul {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+
+    #filters li:not(.title-filters) {
+        margin-left: 0%;
+    }
+
+    .money {
+        order: 1;
+    }
+
+
+    .child {
+        order: 2;
+    }
+
+    .heart {
+        order: 3;
+    }
+
+    .dog {
+        order: 4;
+    }
+
+
+
+    .i-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    #search-bar {
+        display: flex;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    #heb-marseille {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .heb-select {
+
+        background-color: white;
+        box-shadow: 0px 2px 4px 0px #80808059;
+        width: 27%;
+
+        margin-bottom: auto;
+
+        border-radius: 18px;
+        margin: 2%;
+            margin-top: 2%;
+            margin-right: 2%;
+            margin-bottom: 2%;
+            margin-left: 2%;
+    }
+
+    .block-heb-marseille {
+        order: 2;
+    }
+
+    .heb-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .activity-marseille {
+        order: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media (min-width: 359px) and (max-width: 425px) {
+    #page {
+        border: 1px solid black;
+        width: 100%;
+        margin: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .nav-log {
+        margin-left: 5%;
+    }
+
+    header>nav>ul>li>a {
+        display: contents;
+    border-top: 0px solid transparent;
+    color: black;
+    text-decoration: none;
+    }
+
+    header > nav > ul > li > a:hover {
+        display: contents;
+        border-bottom: 2px solid #0065fc;
+        color: #0065fc;
+
+    }
+
+    .nav-content {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    .item-bar-hover.item-bar-hover-left {
+        display: block;
+        width: 50%;
+        border-bottom: 2px solid #f2f2f2;
+        padding-bottom: 20px;
+    }
+
+    .item-bar-hover.item-bar-hover-right {
+        display: block;
+        width: 50%;
+        border-bottom: 2px solid #f2f2f2;
+        padding-bottom: 20px;
+    }
+
+
+    .item-bar-hover.item-bar-hover-left:hover {
+        border-bottom: 2px solid #0065fc;
+        padding-bottom: 20px;
+        cursor: pointer;
+
+    }
+    .item-bar-hover.item-bar-hover-right:hover {
+        border-bottom: 2px solid #0065fc;
+        padding-bottom: 20px;
+        cursor: pointer;
+
+    }
+
+
+    .sign-up {
+        order: 1;
+        padding-left: 30%;
+        color: #0065fc;
+    }
+    .sign-up:hover {
+        color: #dfecff;
+        text-decoration: none;
+    }
+
+    .top-nav{
+        order: 2;
+        width: 100%;
+        display: flex;
+    }
+
+
+    .nav-heb {
+
+        width: 50%;
+    }
+
+    .nav-act {
+
+        width: 50%;
+    }
+
+
+    #top-search > h1 {
+        margin-bottom: 0.5%;
+        font-size: 1.7em;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .line-height {
+        width: 100%;
+        text-align: center;
+        font-weight: lighter;
+        font-size: 1.7em;
+        height: auto;
+        margin-bottom: 2%;
+    }
+
+    .title-filters {
+        display: block;
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    #filters > ul {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+
+    #filters li:not(.title-filters) {
+        margin-left: 0%;
+    }
+
+    .money {
+        order: 1;
+    }
+
+
+    .child {
+        order: 2;
+    }
+
+    .heart {
+        order: 3;
+    }
+
+    .dog {
+        order: 4;
+    }
+
+
+
+    .i-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    #search-bar {
+        display: flex;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    #heb-marseille {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .heb-select {
+
+        background-color: white;
+        box-shadow: 0px 2px 4px 0px #80808059;
+        width: 27%;
+
+        margin-bottom: auto;
+
+        border-radius: 18px;
+        margin: 2%;
+            margin-top: 2%;
+            margin-right: 2%;
+            margin-bottom: 2%;
+            margin-left: 2%;
+    }
+
+    .block-heb-marseille {
+        order: 2;
+    }
+
+    .heb-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .activity-marseille {
+        order: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+@media (min-width: 312px) and (max-width: 358px) {
+    #page {
+        border: 1px solid black;
+        width: 100%;
+        margin: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .nav-log {
+        margin-left: 5%;
+    }
+
+    header>nav>ul>li>a {
+        display: contents;
+    border-top: 0px solid transparent;
+    color: black;
+    text-decoration: none;
+    }
+
+    header > nav > ul > li > a:hover {
+        display: contents;
+        border-bottom: 2px solid #0065fc;
+        color: #0065fc;
+
+    }
+
+    .nav-content {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    .item-bar-hover.item-bar-hover-left {
+        display: block;
+        width: 50%;
+        border-bottom: 2px solid #f2f2f2;
+        padding-bottom: 20px;
+    }
+
+    .item-bar-hover.item-bar-hover-right {
+        display: block;
+        width: 50%;
+        border-bottom: 2px solid #f2f2f2;
+        padding-bottom: 20px;
+    }
+
+
+    .item-bar-hover.item-bar-hover-left:hover {
+        border-bottom: 2px solid #0065fc;
+        padding-bottom: 20px;
+        cursor: pointer;
+
+    }
+    .item-bar-hover.item-bar-hover-right:hover {
+        border-bottom: 2px solid #0065fc;
+        padding-bottom: 20px;
+        cursor: pointer;
+
+    }
+
+
+    .sign-up {
+        order: 1;
+        padding-left: 20%;
+        color: #0065fc;
+    }
+    .sign-up:hover {
+        color: #dfecff;
+        text-decoration: none;
+    }
+
+    .top-nav{
+        order: 2;
+        width: 100%;
+        display: flex;
+    }
+
+
+    .nav-heb {
+
+        width: 50%;
+    }
+
+    .nav-act {
+
+        width: 50%;
+    }
+
+
+    #top-search > h1 {
+        margin-bottom: 0.5%;
+        font-size: 1.7em;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .line-height {
+        width: 100%;
+        text-align: center;
+        font-weight: lighter;
+        font-size: 1.7em;
+        height: auto;
+        margin-bottom: 2%;
+    }
+
+    .title-filters {
+        display: block;
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    #filters > ul {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+
+    #filters li:not(.title-filters) {
+        margin-left: 0%;
+    }
+
+    .money {
+        order: 1;
+    }
+
+
+    .child {
+        order: 2;
+    }
+
+    .heart {
+        order: 3;
+    }
+
+    .dog {
+        order: 4;
+    }
+
+
+
+    .i-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    #search-bar {
+        display: flex;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    #heb-marseille {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .heb-select {
+
+        background-color: white;
+        box-shadow: 0px 2px 4px 0px #80808059;
+        width: 27%;
+
+        margin-bottom: auto;
+
+        border-radius: 18px;
+        margin: 2%;
+            margin-top: 2%;
+            margin-right: 2%;
+            margin-bottom: 2%;
+            margin-left: 2%;
+    }
+
+    .block-heb-marseille {
+        order: 2;
+    }
+
+    .heb-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .activity-marseille {
+        order: 1;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 274px){
+    #page {
+        border: 1px solid black;
+        width: 100%;
+        margin: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .nav-log {
+        margin-left: 5%;
+    }
+
+    header>nav>ul>li>a {
+        display: contents;
+    border-top: 0px solid transparent;
+    color: black;
+    text-decoration: none;
+    }
+
+    header > nav > ul > li > a:hover {
+        display: contents;
+        border-bottom: 2px solid #0065fc;
+        color: #0065fc;
+
+    }
+
+    .nav-content {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    .item-bar-hover.item-bar-hover-left {
+        display: block;
+        width: 50%;
+        border-bottom: 2px solid #f2f2f2;
+        padding-bottom: 20px;
+    }
+
+    .item-bar-hover.item-bar-hover-right {
+        display: block;
+        width: 50%;
+        border-bottom: 2px solid #f2f2f2;
+        padding-bottom: 20px;
+    }
+
+
+    .item-bar-hover.item-bar-hover-left:hover {
+        border-bottom: 2px solid #0065fc;
+        padding-bottom: 20px;
+        cursor: pointer;
+
+    }
+    .item-bar-hover.item-bar-hover-right:hover {
+        border-bottom: 2px solid #0065fc;
+        padding-bottom: 20px;
+        cursor: pointer;
+
+    }
+
+
+    .sign-up {
+        order: 1;
+        padding-left: 9%;
+        color: #0065fc;
+    }
+    .sign-up:hover {
+        color: #dfecff;
+        text-decoration: none;
+    }
+
+    .top-nav{
+        order: 2;
+        width: 100%;
+        display: flex;
+    }
+
+
+    .nav-heb {
+
+        width: 50%;
+    }
+
+    .nav-act {
+
+        width: 50%;
+    }
+
+
+    #top-search > h1 {
+        margin-bottom: 0.5%;
+        font-size: 1.7em;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .line-height {
+        width: 100%;
+        text-align: center;
+        font-weight: lighter;
+        font-size: 1.7em;
+        height: auto;
+        margin-bottom: 2%;
+    }
+
+    .title-filters {
+        display: block;
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    #filters > ul {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+
+    #filters li:not(.title-filters) {
+        margin-left: 0%;
+    }
+
+    .money {
+        order: 1;
+    }
+
+
+    .child {
+        order: 2;
+    }
+
+    .heart {
+        order: 3;
+    }
+
+    .dog {
+        order: 4;
+    }
+
+
+
+    .i-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    #search-bar {
+        display: flex;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    #heb-marseille {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .heb-select {
+
+        background-color: white;
+        box-shadow: 0px 2px 4px 0px #80808059;
+        width: 27%;
+
+        margin-bottom: auto;
+
+        border-radius: 18px;
+        margin: 2%;
+            margin-top: 2%;
+            margin-right: 2%;
+            margin-bottom: 2%;
+            margin-left: 2%;
+    }
+
+    .block-heb-marseille {
+        order: 2;
+    }
+
+    .heb-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .activity-marseille {
+        order: 1;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 275px) and (max-width: 311px){
+    #page {
+        border: 1px solid black;
+        width: 100%;
+        margin: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .nav-log {
+        margin-left: 5%;
+    }
+
+    header>nav>ul>li>a {
+        display: contents;
+    border-top: 0px solid transparent;
+    color: black;
+    text-decoration: none;
+    }
+
+    header > nav > ul > li > a:hover {
+        display: contents;
+        border-bottom: 2px solid #0065fc;
+        color: #0065fc;
+
+    }
+
+    .nav-content {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    .item-bar-hover.item-bar-hover-left {
+        display: block;
+        width: 50%;
+        border-bottom: 2px solid #f2f2f2;
+        padding-bottom: 20px;
+    }
+
+    .item-bar-hover.item-bar-hover-right {
+        display: block;
+        width: 50%;
+        border-bottom: 2px solid #f2f2f2;
+        padding-bottom: 20px;
+    }
+
+
+    .item-bar-hover.item-bar-hover-left:hover {
+        border-bottom: 2px solid #0065fc;
+        padding-bottom: 20px;
+        cursor: pointer;
+
+    }
+    .item-bar-hover.item-bar-hover-right:hover {
+        border-bottom: 2px solid #0065fc;
+        padding-bottom: 20px;
+        cursor: pointer;
+
+    }
+
+
+    .sign-up {
+        order: 1;
+        padding-left: 10%;
+        color: #0065fc;
+    }
+    .sign-up:hover {
+        color: #dfecff;
+        text-decoration: none;
+    }
+
+    .top-nav{
+        order: 2;
+        width: 100%;
+        display: flex;
+    }
+
+
+    .nav-heb {
+
+        width: 50%;
+    }
+
+    .nav-act {
+
+        width: 50%;
+    }
+
+
+    #top-search > h1 {
+        margin-bottom: 0.5%;
+        font-size: 1.7em;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .line-height {
+        width: 100%;
+        text-align: center;
+        font-weight: lighter;
+        font-size: 1.7em;
+        height: auto;
+        margin-bottom: 2%;
+    }
+
+    .title-filters {
+        display: block;
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    #filters > ul {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+
+    #filters li:not(.title-filters) {
+        margin-left: 0%;
+    }
+
+    .money {
+        order: 1;
+    }
+
+
+    .child {
+        order: 2;
+    }
+
+    .heart {
+        order: 3;
+    }
+
+    .dog {
+        order: 4;
+    }
+
+
+
+    .i-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    #search-bar {
+        display: flex;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    #heb-marseille {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .heb-select {
+
+        background-color: white;
+        box-shadow: 0px 2px 4px 0px #80808059;
+        width: 27%;
+
+        margin-bottom: auto;
+
+        border-radius: 18px;
+        margin: 2%;
+            margin-top: 2%;
+            margin-right: 2%;
+            margin-bottom: 2%;
+            margin-left: 2%;
+    }
+
+    .block-heb-marseille {
+        order: 2;
+    }
+
+    .heb-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .activity-marseille {
+        order: 1;
+        display: flex;
+        flex-direction: column;
+    }
 }
