@@ -842,10 +842,17 @@ footer a {
         /* margin-bottom: auto; */
         border-radius: 18px;
         margin: 2%;
-        /* margin-top: 2%; */
-        /* margin-right: 2%; */
-        /* margin-bottom: 2%; */
-        /* margin-left: 2%; */
+        margin: 2%;
+        margin-right: 4%;
+        margin-left: 4%;
+    }
+
+    figure.img-marseille {
+        display: block;
+        margin-block-start: 1%;
+        margin-inline-start: 1%;
+        margin-inline-end: 1%;
+        margin-bottom: 5px;
     }
 
     #populaire-side {
@@ -1066,11 +1073,21 @@ footer a {
         /* margin-bottom: auto; */
         border-radius: 18px;
         margin: 2%;
-        /* margin-top: 2%; */
-        /* margin-right: 2%; */
-        /* margin-bottom: 2%; */
-        /* margin-left: 2%; */
+        margin: 2%;
+        margin-right: 4%;
+        margin-left: 4%;
     }
+
+
+    figure.img-marseille {
+        display: block;
+        margin-block-start: 1%;
+        margin-inline-start: 1%;
+        margin-inline-end: 1%;
+        margin-bottom: 5px;
+    }
+
+
     #populaire-side {
         border-radius: 20px;
         background-color: #f2f2f2;
@@ -1294,10 +1311,17 @@ footer a {
         /* margin-bottom: auto; */
         border-radius: 18px;
         margin: 2%;
-        /* margin-top: 2%; */
-        /* margin-right: 2%; */
-        /* margin-bottom: 2%; */
-        /* margin-left: 2%; */
+        margin: 2%;
+        margin-right: 4%;
+        margin-left: 4%;
+    }
+
+    figure.img-marseille {
+        display: block;
+        margin-block-start: 1%;
+        margin-inline-start: 1%;
+        margin-inline-end: 1%;
+        margin-bottom: 5px;
     }
 
     #populaire-side {
@@ -1521,10 +1545,17 @@ footer a {
         /* margin-bottom: auto; */
         border-radius: 18px;
         margin: 2%;
-        /* margin-top: 2%; */
-        /* margin-right: 2%; */
-        /* margin-bottom: 2%; */
-        /* margin-left: 2%; */
+        margin: 2%;
+        margin-right: 4%;
+        margin-left: 4%;
+    }
+
+    figure.img-marseille {
+        display: block;
+        margin-block-start: 1%;
+        margin-inline-start: 1%;
+        margin-inline-end: 1%;
+        margin-bottom: 5px;
     }
 
     #populaire-side {
@@ -1746,10 +1777,18 @@ footer a {
         /* margin-bottom: auto; */
         border-radius: 18px;
         margin: 2%;
-        /* margin-top: 2%; */
-        /* margin-right: 2%; */
-        /* margin-bottom: 2%; */
-        /* margin-left: 2%; */
+        margin: 2%;
+        margin-right: 4%;
+        margin-left: 4%;
+    }
+
+
+    figure.img-marseille {
+        display: block;
+        margin-block-start: 1%;
+        margin-inline-start: 1%;
+        margin-inline-end: 1%;
+        margin-bottom: 5px;
     }
 
     #populaire-side {
@@ -1971,10 +2010,16 @@ footer a {
         /* margin-bottom: auto; */
         border-radius: 18px;
         margin: 2%;
-        /* margin-top: 2%; */
-        /* margin-right: 2%; */
-        /* margin-bottom: 2%; */
-        /* margin-left: 2%; */
+        margin-right: 4%;
+        margin-left: 4%;
+    }
+
+    figure.img-marseille {
+        display: block;
+        margin-block-start: 1%;
+        margin-inline-start: 1%;
+        margin-inline-end: 1%;
+        margin-bottom: 5px;
     }
 
     #populaire-side {
@@ -2181,10 +2226,8 @@ footer a {
         /* margin-bottom: auto; */
         border-radius: 18px;
         margin: 2%;
-        /* margin-top: 2%; */
-        /* margin-right: 2%; */
-        /* margin-bottom: 2%; */
-        /* margin-left: 2%; */
+        margin-right: 4%;
+        margin-left: 4%;
     }
 
     .block-heb-marseille {
@@ -2198,6 +2241,14 @@ footer a {
         flex-flow: wrap;
         padding-top: 14%;
         background-color: transparent;
+    }
+
+    figure.img-marseille {
+        display: block;
+        margin-block-start: 1%;
+        margin-inline-start: 1%;
+        margin-inline-end: 1%;
+        margin-bottom: 5px;
     }
 
 
