@@ -1120,6 +1120,14 @@ footer a {
         width: 100%;
     }
 
+    figure.img-activity {
+        margin: 3%;
+    }
+
+    .activity-select-large {
+        margin-bottom: 6%;
+    }
+
     .mobile-resize  img {
         width: 100%;
         border-radius: 15px 15px 0 0;
@@ -1380,6 +1388,14 @@ footer a {
         width: 100%;
     }
 
+    figure.img-activity {
+        margin: 3%;
+    }
+
+    .activity-select-large {
+        margin-bottom: 6%;
+    }
+
     .mobile-resize  img {
         width: 100%;
         border-radius: 15px 15px 0 0;
@@ -1627,14 +1643,27 @@ footer a {
         margin-left: 4%;
     }
 
+    h3.title-activity {
+        margin-left: 13px;
+    }
+
     .activity-marseille {
         order: 1;
         display: flex;
         flex-direction: column;
+        padding-top: 20%;
     }
 
     .activity-select-portrait {
         width: 100%;
+    }
+
+    figure.img-activity {
+        margin: 3%;
+    }
+
+    .activity-select-large {
+        margin-bottom: 6%;
     }
 
     .mobile-resize  img {
@@ -1894,6 +1923,14 @@ footer a {
         width: 100%;
     }
 
+    figure.img-activity {
+        margin: 3%;
+    }
+
+    .activity-select-large {
+        margin-bottom: 6%;
+    }
+
     .mobile-resize  img {
         width: 100%;
         border-radius: 15px 15px 0 0;
@@ -2137,6 +2174,10 @@ footer a {
         margin-left: 4%;
     }
 
+    h3.title-activity {
+        margin-left: 13px;
+    }
+
     .activity-marseille {
         order: 1;
         display: flex;
@@ -2145,6 +2186,14 @@ footer a {
 
     .activity-select-portrait {
         width: 100%;
+    }
+
+    figure.img-activity {
+        margin: 3%;
+    }
+
+    .activity-select-large {
+        margin-bottom: 6%;
     }
 
     .mobile-resize  img {
@@ -2393,6 +2442,11 @@ footer a {
         margin-left: 4%;
     }
 
+
+    h3.title-activity {
+        margin-left: 13px;
+    }
+
     .activity-marseille {
         order: 1;
         display: flex;
@@ -2401,6 +2455,15 @@ footer a {
 
     .activity-select-portrait {
         width: 100%;
+    }
+
+
+    figure.img-activity {
+        margin: 3%;
+    }
+
+    .activity-select-large {
+        margin-bottom: 6%;
     }
 
     .mobile-resize  img {
