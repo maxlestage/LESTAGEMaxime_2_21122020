@@ -999,6 +999,10 @@ footer a {
         width: 100%;
     }
 
+    .double-cards {
+        width: 100%;
+    }
+
     footer > #footer-items {
         display: flex;
         justify-content: space-evenly;
@@ -1276,6 +1280,10 @@ footer a {
     .double-activity-marseille {
         margin: 0px 0px;
         /* height: 100%; */
+        width: 100%;
+    }
+
+    .double-cards {
         width: 100%;
     }
 
@@ -1575,6 +1583,10 @@ footer a {
         width: 100%;
     }
 
+    .double-cards {
+        width: 100%;
+    }
+
     #footer-items {
         display: flex;
         flex-direction: column;
@@ -1860,6 +1872,10 @@ footer a {
         width: 100%;
     }
 
+    .double-cards {
+        width: 100%;
+    }
+
     #footer-items {
         display: flex;
         flex-direction: column;
@@ -2135,6 +2151,10 @@ footer a {
         width: 100%;
     }
 
+    .double-cards {
+        width: 100%;
+    }
+
     #footer-items {
         display: flex;
         flex-direction: column;
@@ -2405,6 +2425,10 @@ footer a {
     .double-activity-marseille {
         margin: 0px 0px;
         /* height: 100%; */
+        width: 100%;
+    }
+
+    .double-cards {
         width: 100%;
     }
 
@@ -2691,6 +2715,10 @@ footer a {
     .double-activity-marseille {
         margin: 0px 0px;
         /* height: 100%; */
+        width: 100%;
+    }
+
+    .double-cards {
         width: 100%;
     }
 
