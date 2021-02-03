@@ -1277,7 +1277,7 @@ footer a {
 
 
 /*Extra small devices (portrait phones, less than 576px)*/
-@media (min-width: 426px) and (max-width: 575px) {
+@media (min-width: 414px) and (max-width: 575px) {
 
     #page {
         width: auto;
@@ -1350,7 +1350,7 @@ footer a {
 
     .sign-up{
         order: 1;
-        padding-left: 40%;
+        padding-left: 37%;
         color: #0065fc;
     }
     .sign-up:hover {
@@ -1490,12 +1490,16 @@ footer a {
         padding-bottom: 5%;
     }
 
+    i.fas.fa-chart-line {
+        padding-left: 45%;
+    }
+
     .aside-stars {
         padding-top: 36%;
     }
 
     .center-start{
-        padding-top: 18%;
+        padding-top: 24%;
     }
 
     figure.pop-img-marseille {
@@ -1508,6 +1512,7 @@ footer a {
     }
 
 
+
     .activity-marseille {
         order: 1;
         display: flex;
@@ -1518,6 +1523,15 @@ footer a {
     .activity-select-portrait {
         width: 100%;
     }
+
+    h3.title-activity {
+        display: block;
+        position: absolute;
+        padding-top: 1%;
+        text-align: justify;
+        padding-left: 4%;
+    }
+
 
     figure.img-activity {
         margin: 3% 4% 1% 4%;
@@ -1557,7 +1571,7 @@ footer a {
 
 }
 
-@media (min-width: 359px) and (max-width: 425px) {
+@media (min-width: 359px) and (max-width: 413px) {
     #page {
         width: auto;
         margin: auto;
