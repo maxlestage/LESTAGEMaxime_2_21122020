@@ -831,8 +831,8 @@ footer a {
 
     .title-filters {
         display: block;
-        width: 100%;
-        margin-left: 5%;
+        width: auto;
+        margin-left: 0%;
     }
 
     #filters > ul {
@@ -924,6 +924,18 @@ footer a {
         padding-bottom: 5%;
     }
 
+    i.fas.fa-chart-line {
+        padding-left: 65%;
+    }
+
+    .aside-stars {
+        padding-top: 36%;
+    }
+
+    .center-start{
+        padding-top: 24%;
+    }
+
     figure.pop-img-marseille {
         display: flex;
         flex-direction: row;
@@ -972,6 +984,11 @@ footer a {
         width: 100%;
     }
 
+    footer > #footer-items {
+        display: flex;
+        justify-content: space-evenly;
+        align-content: flex-start;
+    }
 
 }
 
@@ -1190,6 +1207,14 @@ footer a {
         width: 100%;
         margin: auto;
         padding-bottom: 5%;
+    }
+
+    .aside-stars {
+        padding-top: 36%;
+    }
+
+    .center-start{
+        padding-top: 18%;
     }
 
     figure.pop-img-marseille {
@@ -1463,6 +1488,14 @@ footer a {
         width: 100%;
         margin: auto;
         padding-bottom: 5%;
+    }
+
+    .aside-stars {
+        padding-top: 36%;
+    }
+
+    .center-start{
+        padding-top: 18%;
     }
 
     figure.pop-img-marseille {
