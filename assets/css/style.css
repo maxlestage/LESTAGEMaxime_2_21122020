@@ -511,6 +511,14 @@ p.aside-stars {
     line-height: 6em;
 }
 
+.aside-stars {
+    padding-top: 36%;
+}
+
+.center-start{
+    padding-top: 24%;
+}
+
 .container-right {
     display: flex;
     flex-direction: column;
@@ -630,6 +638,11 @@ figure.img-activity-center {
 }
 
 /* Style pour les cartes une à une, de la section activités */
+
+.activity-select-portrait {
+    width: 40%;
+}
+
 .activity-select-portrait img {
     width: 100%;
     border-radius: 15px 15px 0 0;
@@ -671,9 +684,7 @@ figcaption.activity-card-text {
     width: 50%;
 }
 
-.activity-select-portrait {
-    width: 50%;
-}
+
 
 .activity-select-portrait> a > figure:hover{
     transform: rotate(4deg);
@@ -686,7 +697,11 @@ figcaption.activity-card-text {
     /* width: 23em;
     margin-left: 11%; */
     margin: 0px 30px 0px 0px;
-    width: 50%;
+    width: 40%;
+}
+
+.double-cards {
+    width: 40%;
 }
 
 .activity-select-portrait-center > a > figure:hover {
