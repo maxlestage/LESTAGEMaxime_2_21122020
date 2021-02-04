@@ -2104,6 +2104,16 @@ footer a {
         padding-bottom: 5%;
     }
 
+    i.fas.fa-chart-line {
+        padding-left: 31%;
+    }
+
+    section#heb-marseille h3 {
+        text-align: inherit;
+        padding-left: 6%;
+        padding-top: 4%;
+    }
+
     figure.pop-img-marseille {
         display: flex;
         flex-direction: row;
@@ -2375,6 +2385,16 @@ footer a {
         width: 100%;
         margin: auto;
         padding-bottom: 5%;
+    }
+
+    i.fas.fa-chart-line {
+        padding-left: 31%;
+    }
+
+    section#heb-marseille h3 {
+        text-align: inherit;
+        padding-left: 6%;
+        padding-top: 4%;
     }
 
     figure.pop-img-marseille {
@@ -2655,6 +2675,16 @@ footer a {
         width: 100%;
         margin: auto;
         padding-bottom: 5%;
+    }
+
+    i.fas.fa-chart-line {
+        padding-left: 31%;
+    }
+    
+    section#heb-marseille h3 {
+        text-align: inherit;
+        padding-left: 6%;
+        padding-top: 4%;
     }
 
     figure.pop-img-marseille {
