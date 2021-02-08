@@ -135,6 +135,13 @@ input.search {
     outline: 0px;
 }
 
+  /* A ajouter sur les responsives  */
+    {
+    display: hidden;
+ }
+
+ /* FIN DSIPLAY LOUPE SEARCH  */
+
 .input-search {
     border: 1px solid #f2f2f2;
     width: 100%;
@@ -782,6 +789,11 @@ footer a {
     }
 
 
+      /* A ajouter sur les responsives  */
+      i.fa.fa-search.btn-search {
+        display: none;
+     }
+     /* FIN DSIPLAY LOUPE SEARCH  */
 
     section#heb-marseille h3:not(.pop-right) {
         padding-top: 1%;
@@ -826,7 +838,11 @@ footer a {
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {}
-
+   /* A ajouter sur les responsives  */
+   i.fa.fa-search.btn-search {
+    display: none;
+ }
+ /* FIN DSIPLAY LOUPE SEARCH  */
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
 
@@ -843,6 +859,11 @@ footer a {
         padding-top: 3%;
     }
 
+           /* A ajouter sur les responsives  */
+        i.fa.fa-search.btn-search {
+           display: none;
+        }
+        /* FIN DSIPLAY LOUPE SEARCH  */
 
     .title-filters {
         display: block;
@@ -1128,6 +1149,30 @@ footer a {
         height: auto;
         margin-bottom: 2%;
     }
+
+           /* A ajouter sur les responsives  */
+           input.btn-search.btn-search-desktop {
+            display: none;
+        }
+    
+        .btn-search {
+            padding: 1em;
+            font-size: 14px;
+            margin: auto;
+            border-radius: 0.75em;
+            background-color: #0065fc;
+            color: white;
+            cursor: pointer;
+            width: 45%;
+            border: 0px solid #0065fc;
+        }
+    
+        i.fa.fa-search.btn-search {
+            margin-left: -15px;
+            display: block;
+        }
+    
+        /* FIN DSIPLAY LOUPE SEARCH  */
 
     .title-filters {
         display: block;
@@ -1415,6 +1460,30 @@ footer a {
         height: auto;
         margin-bottom: 2%;
     }
+
+           /* A ajouter sur les responsives  */
+           input.btn-search.btn-search-desktop {
+            display: none;
+        }
+    
+        .btn-search {
+            padding: 1em;
+            font-size: 14px;
+            margin: auto;
+            border-radius: 0.75em;
+            background-color: #0065fc;
+            color: white;
+            cursor: pointer;
+            width: 45%;
+            border: 0px solid #0065fc;
+        }
+    
+        i.fa.fa-search.btn-search {
+            margin-left: -15px;
+            display: block;
+        }
+    
+        /* FIN DSIPLAY LOUPE SEARCH  */
 
     .title-filters {
         display: block;
@@ -1704,6 +1773,7 @@ footer a {
     }
 
 
+
     .line-height {
         width: 100%;
         text-align: center;
@@ -1712,6 +1782,29 @@ footer a {
         height: auto;
         margin-bottom: 2%;
     }
+        /* A ajouter sur les responsives  */
+    input.btn-search.btn-search-desktop {
+        display: none;
+    }
+
+    .btn-search {
+        padding: 1em;
+        font-size: 14px;
+        margin: auto;
+        border-radius: 0.75em;
+        background-color: #0065fc;
+        color: white;
+        cursor: pointer;
+        width: 45%;
+        border: 0px solid #0065fc;
+    }
+
+    i.fa.fa-search.btn-search {
+        margin-left: -15px;
+        display: block;
+    }
+
+    /* FIN DSIPLAY LOUPE SEARCH  */
 
     .title-filters {
         display: block;
@@ -1720,7 +1813,6 @@ footer a {
     }
 
     #filters > ul {
-
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -2002,6 +2094,30 @@ footer a {
         height: auto;
         margin-bottom: 2%;
     }
+
+           /* A ajouter sur les responsives  */
+           input.btn-search.btn-search-desktop {
+            display: none;
+        }
+    
+        .btn-search {
+            padding: 1em;
+            font-size: 14px;
+            margin: auto;
+            border-radius: 0.75em;
+            background-color: #0065fc;
+            color: white;
+            cursor: pointer;
+            width: 45%;
+            border: 0px solid #0065fc;
+        }
+    
+        i.fa.fa-search.btn-search {
+            margin-left: -15px;
+            display: block;
+        }
+    
+        /* FIN DSIPLAY LOUPE SEARCH  */
 
     .title-filters {
         display: block;
@@ -2290,6 +2406,30 @@ footer a {
         margin-bottom: 2%;
     }
 
+           /* A ajouter sur les responsives  */
+           input.btn-search.btn-search-desktop {
+            display: none;
+        }
+    
+        .btn-search {
+            padding: 1em;
+            font-size: 14px;
+            margin: auto;
+            border-radius: 0.75em;
+            background-color: #0065fc;
+            color: white;
+            cursor: pointer;
+            width: 45%;
+            border: 0px solid #0065fc;
+        }
+    
+        i.fa.fa-search.btn-search {
+            margin-left: -15px;
+            display: block;
+        }
+    
+        /* FIN DSIPLAY LOUPE SEARCH  */
+
     .title-filters {
         display: block;
         width: 100%;
@@ -2576,6 +2716,34 @@ footer a {
         height: auto;
         margin-bottom: 2%;
     }
+
+           /* A ajouter sur les responsives  */
+           input.btn-search.btn-search-desktop {
+            display: none;
+        }
+    
+        .btn-search {
+            padding: 1em;
+            font-size: 14px;
+            margin: auto;
+            border-radius: 0.75em;
+            background-color: #0065fc;
+            color: white;
+            cursor: pointer;
+            width: 45%;
+            border: 0px solid #0065fc;
+        }
+    
+        i.fa.fa-search.btn-search {
+            margin-left: -15px;
+            display: block;
+
+        }
+
+        .btn-search-mobile{
+            visibility: visible !important;
+        }
+        /* FIN DSIPLAY LOUPE SEARCH  */
 
     .title-filters {
         display: block;
