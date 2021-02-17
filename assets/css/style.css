@@ -46,6 +46,10 @@ header > a:hover {
   width: 10%;
 }
 
+a.sign-up:active {
+  color: #0065fc;
+}
+
 .sign-up {
   order: 3;
 }
@@ -87,7 +91,7 @@ header a {
 /* Fin du style pour la Navbar du haut */
 
 /* Début du style pour les Filtres */
-h2.line-height {
+#top-search > span.line-height {
   font-weight: lighter;
   font-size: 1.1em;
   height: auto;
@@ -97,6 +101,7 @@ h2.line-height {
 /* Barre de recherche */
 #search-bar {
   display: flex;
+  margin-top: 1%;
 }
 
 input.search {
@@ -735,6 +740,22 @@ footer a {
   margin-left: -8%;
 }
 
+
+/* Ajouté le 17 Février sur les recommandations du mentor de Rendu */
+#footer-items {
+  display: flex;
+  flex-direction: row;
+}
+
+#footer-items > ul  li {
+  margin-top: 1rem;
+}
+
+.footer__title {
+  font-weight:bold;
+}
+/* FIN pour partie -> Ajouté le 17 Février sur les recommandations du mentor de Rendu */
+
 /* Fin du stylepour le footer */
 
 /* ADDING MEDIA QUERY */
@@ -811,7 +832,8 @@ i.fa.fa-search.btn-search {
   #search-bar {
     display: flex;
     justify-content: center;
-    padding-top: 3%;
+    padding-top: 4%;
+    padding-bottom: 2%;
   }
 
   /* A ajouter sur les responsives  */
@@ -1052,6 +1074,10 @@ i.fa.fa-search.btn-search {
     color: #0065fc;
   }
 
+  a.sign-up:active {
+    color: #0065fc;
+}
+
   .sign-up:hover {
     color: #dfecff;
     text-decoration: none;
@@ -1072,7 +1098,7 @@ i.fa.fa-search.btn-search {
   }
 
   #top-search > h1 {
-    margin-bottom: 0.5%;
+    margin-bottom: 2.5%;
     font-size: 1.7em;
     width: 100%;
     text-align: center;
@@ -1151,8 +1177,8 @@ i.fa.fa-search.btn-search {
 
   #search-bar {
     display: flex;
-    display: flex;
     justify-content: center;
+    margin-top: 1%;
   }
 
   #heb-marseille {
@@ -1265,7 +1291,7 @@ i.fa.fa-search.btn-search {
   #footer-items {
     display: flex;
     flex-direction: column;
-    padding-left: 7%;
+    /* padding-left: 7%; */
   }
 
   .about {
@@ -1343,6 +1369,10 @@ i.fa.fa-search.btn-search {
     color: #0065fc;
   }
 
+  a.sign-up:active {
+    color: #0065fc;
+}
+
   .sign-up:hover {
     color: #dfecff;
     text-decoration: none;
@@ -1363,7 +1393,7 @@ i.fa.fa-search.btn-search {
   }
 
   #top-search > h1 {
-    margin-bottom: 0.5%;
+    margin-bottom: 2.5%;
     font-size: 1.7em;
     width: 100%;
     text-align: center;
@@ -1442,9 +1472,9 @@ i.fa.fa-search.btn-search {
 
   #search-bar {
     display: flex;
-    display: flex;
     justify-content: center;
-  }
+    margin-top: 5%;
+    }
 
   #heb-marseille {
     display: flex;
@@ -1568,7 +1598,7 @@ i.fa.fa-search.btn-search {
   #footer-items {
     display: flex;
     flex-direction: column;
-    padding-left: 7%;
+    /* padding-left: 7%; */
   }
 
   .about {
@@ -1645,6 +1675,11 @@ i.fa.fa-search.btn-search {
     color: #0065fc;
   }
 
+
+  a.sign-up:active {
+    color: #0065fc;
+}
+
   .sign-up:hover {
     color: #dfecff;
     text-decoration: none;
@@ -1665,7 +1700,7 @@ i.fa.fa-search.btn-search {
   }
 
   #top-search > h1 {
-    margin-bottom: 0.5%;
+    margin-bottom: 2.5%;
     font-size: 1.7em;
     width: 100%;
     text-align: center;
@@ -1744,8 +1779,8 @@ i.fa.fa-search.btn-search {
 
   #search-bar {
     display: flex;
-    display: flex;
     justify-content: center;
+    margin-top: 5%;
   }
 
   #heb-marseille {
@@ -1862,7 +1897,7 @@ i.fa.fa-search.btn-search {
   #footer-items {
     display: flex;
     flex-direction: column;
-    padding-left: 7%;
+    /* padding-left: 7%; */
   }
 
   .about {
@@ -1939,6 +1974,10 @@ i.fa.fa-search.btn-search {
     color: #0065fc;
   }
 
+  a.sign-up:active {
+    color: #0065fc;
+}
+
   .sign-up:hover {
     color: #dfecff;
     text-decoration: none;
@@ -1959,7 +1998,7 @@ i.fa.fa-search.btn-search {
   }
 
   #top-search > h1 {
-    margin-bottom: 0.5%;
+    margin-bottom: 2.5%;
     font-size: 1.7em;
     width: 100%;
     text-align: center;
@@ -2038,8 +2077,8 @@ i.fa.fa-search.btn-search {
 
   #search-bar {
     display: flex;
-    display: flex;
     justify-content: center;
+    margin-top: 5%;
   }
 
   #heb-marseille {
@@ -2108,6 +2147,15 @@ i.fa.fa-search.btn-search {
     margin-left: 4%;
   }
 
+
+  h3.title-activity {
+    display: block;
+    position: absolute;
+    padding-top: 1%;
+    text-align: justify;
+    margin-left: 11px;
+}
+
   .activity-marseille {
     order: 1;
     display: flex;
@@ -2154,7 +2202,7 @@ i.fa.fa-search.btn-search {
   #footer-items {
     display: flex;
     flex-direction: column;
-    padding-left: 7%;
+    /* padding-left: 7%; */
   }
 
   .about {
@@ -2231,6 +2279,10 @@ i.fa.fa-search.btn-search {
     color: #0065fc;
   }
 
+  a.sign-up:active {
+    color: #0065fc;
+}
+
   .sign-up:hover {
     color: #dfecff;
     text-decoration: none;
@@ -2251,7 +2303,7 @@ i.fa.fa-search.btn-search {
   }
 
   #top-search > h1 {
-    margin-bottom: 0.5%;
+    margin-bottom: 2.5%;
     font-size: 1.7em;
     width: 100%;
     text-align: center;
@@ -2334,8 +2386,8 @@ i.fa.fa-search.btn-search {
 
   #search-bar {
     display: flex;
-    display: flex;
     justify-content: center;
+    margin-top: 1%;
   }
 
   #heb-marseille {
@@ -2462,7 +2514,7 @@ i.fa.fa-search.btn-search {
   #footer-items {
     display: flex;
     flex-direction: column;
-    padding-left: 7%;
+    /* padding-left: 7%; */
   }
 
   .about {
@@ -2539,6 +2591,10 @@ i.fa.fa-search.btn-search {
     color: #0065fc;
   }
 
+  a.sign-up:active {
+    color: #0065fc;
+}
+
   .sign-up:hover {
     color: #dfecff;
     text-decoration: none;
@@ -2559,7 +2615,7 @@ i.fa.fa-search.btn-search {
   }
 
   #top-search > h1 {
-    margin-bottom: 0.5%;
+    margin-bottom: 2.5%;
     font-size: 1.7em;
     width: 100%;
     text-align: center;
@@ -2638,8 +2694,8 @@ i.fa.fa-search.btn-search {
 
   #search-bar {
     display: flex;
-    display: flex;
     justify-content: center;
+    margin-top: 1%;
   }
 
   #heb-marseille {
@@ -2757,7 +2813,7 @@ i.fa.fa-search.btn-search {
   #footer-items {
     display: flex;
     flex-direction: column;
-    padding-left: 7%;
+    /* padding-left: 7%; */
   }
 
   .about {
